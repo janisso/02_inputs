@@ -1,0 +1,1118 @@
+(*
+  gmn code converted from 'm14388_5_musescore.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \instr<"Midi_1", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \key<-4> \meter<"3/4", autoBarlines="off"> \clef<"g2"> \intens<"pp"> \stemsUp \beam( c&3/16 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 2 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 3 *)  \beam( c&3/16 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 4 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 5 *)  \slurBegin:1 \stacc( { a&/4, c&2 }) \crescBegin \stacc( { g1, b&, f&2 }) \stacc( { g1, b&, f&2 }) \crescEnd \bar 
+   (* meas. 6 *)  \dimBegin \stacc( { g1, b&, f&2 }) \stacc( { g1, b&, e&2 }) \stacc( { g1, b&, d&2 }) \slurEnd:1 \dimEnd \bar 
+   (* meas. 7 *)  \beam( c&3/16 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 8 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 9 *)  \beam( c&3/16 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 10 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 11 *)  \slurBegin:1 \stacc( { a&/4, c&2 }) \stacc( { g&1, b&, f&2 }) \stacc( { g&1, b&, f&2 }) \bar 
+   (* meas. 12 *)  \dimBegin \stacc( { g&1, b&, f&2 }) \stacc( { g&1, b&, e&2 }) \stacc( { g&1, b&, d2 }) \slurEnd:1 \dimEnd \bar 
+   (* meas. 13 *)  \beam( e&3/16 g& e& c&) \beam( c& e& c& g&2) \beam( g& c&3 g&2 e&) \bar 
+   (* meas. 14 *)  \beam( e& g& e& c&) \beam( c& e& c& g&1) { b&/8, d&2 } _ \bar 
+   (* meas. 15 *)  \beam( e&3/16 g& e& c&) \beam( c& e& c& g&2) \beam( g& c&3 g&2 e&) \bar 
+   (* meas. 16 *)  \beam( e& g& e& c&) \beam( c& e& c& g&1) { b&/8, d&2 } _ \bar 
+   (* meas. 17 *)  \slurBegin:1 \stacc( { c&/4, e& }) \crescBegin \stacc( { b&1, d&2, a& }) \stacc( { b&1, d&2, a& }) \slurEnd:1 \crescEnd \bar 
+   (* meas. 18 *)  \dimBegin \slurBegin:1 \stacc( { b&1, d&2, a& }) \stacc( { b&1, e&2, g& }) \stacc( { b&1, f&2 }) \slurEnd:1 \dimEnd \bar 
+   (* meas. 19 *)  \beam( d3/16 f# d b2) \beam( b d3 b2 f#) \beam( f# b f# d) \bar 
+   (* meas. 20 *)  \beam( d f# d b1) \beam( b d2 b1 f#) { a#/8, c#2 } _ \bar 
+   (* meas. 21 *)  \beam( d3/16 f# d b2) \beam( b d3 b2 f#) \beam( f# b f# d) \bar 
+   (* meas. 22 *)  \beam( d f# d b1) \beam( b d2 b1 f#) { a#/8, c#2 } _ \bar 
+   (* meas. 23 *)  \slurBegin:1 { f#1/4, b, d2 } \dimBegin \stacc( { c#, e, b }) \stacc( { c#, e, b }) \bar 
+   (* meas. 24 *)  \stacc( { c#, e, b }) \dimEnd \stacc( { c#, f#, a }) \stacc( { c#, g }) \slurEnd:1 \bar 
+   (* meas. 25 *)  \stacc( { d, f# }) \dimBegin \slurBegin:1 \stacc( { a#1, c#2, g }) \stacc( { a#1, c#2, g }) \bar 
+   (* meas. 26 *)  \stacc( { a#1, c#2, g }) \dimEnd \stacc( { a#1, c#2, f# }) \stacc( { c#, e }) \slurEnd:1 \bar 
+   (* meas. 27 *)  { b1, d#2 } \intens<"f"> \dimBegin \slurBegin:1 \stacc( { f&1, a&, f&2 }) \stacc( { f&1, a&, f&2 }) \slurEnd:1 \dimEnd \bar 
+   (* meas. 28 *)  \slurBegin:1 \stacc( { f&1, a&, f&2 }) \stacc( { e&1, a&, e&2 }) \stacc( { d&1, a&, d&2 }) \slurEnd:1 \bar 
+   (* meas. 29 *)  \intens<"p"> \slurBegin:1 \stacc( { e&1, a&, c&2 }) \stacc( { e&1, a&, c&2 }) \stacc( { e&1, a&, c&2 }) \bar 
+   (* meas. 30 *)  \stacc( { e&1, g, b& }) \stacc( { e&, g, b& }) \stacc( { e&, g, b& }) \slurEnd:1 \bar 
+   (* meas. 31 *)  \intens<"pp"> \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) \beam( e& a& e& c) \bar 
+   (* meas. 32 *)  \beam( c e& c a&1) \beam( a& c2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 33 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) \beam( e& a& e& c) \bar 
+   (* meas. 34 *)  \beam( c e& c a&1) \beam( a& c2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 35 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) \beam( a& c3 a&2 e&) \bar 
+   (* meas. 36 *)  \beam( e& a& e& c) \beam( c e& c a&1) { g/8, b& } _ \bar 
+   (* meas. 37 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) \beam( a& c3 a&2 e&) \bar 
+   (* meas. 38 *)  \beam( e& a& e& c) \beam( c e& c a&1) { g/8, b& } _ \bar 
+   (* meas. 39 *)  \beam( c2/16 \intens<"pp"> e& c a&1) \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 40 *)  \beam( d&2/16 f d& a&1) \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 41 *)  \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 42 *)  \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 43 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 44 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 45 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 46 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 47 *)  \beam( c2/16 \intens<"pp"> e& c a&1) \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 48 *)  \beam( d&2/16 f d& a&1) \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 49 *)  \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 50 *)  \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 51 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 52 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 53 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 54 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 55 *)  \beam( e&/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 56 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 57 *)  \intens<"f"> \beam( f2/16 a f c) \beam( c f c a1) c2/8 _ \bar 
+   (* meas. 58 *)  \beam( f/16 b& f d&) \beam( d& f d& b&1) d&2/8 _ \bar 
+   (* meas. 59 *)  \beam( f/16 a f c) \beam( c f c a1) c2/8 _ \bar 
+   (* meas. 60 *)  \beam( f/16 b& f d&) \beam( d& f d& b&1) d&2/8 _ \bar 
+   (* meas. 61 *)  \beam( a&/16 c3 a&2 e&) \beam( e& a& e& c) e&/8 _ \bar 
+   (* meas. 62 *)  \beam( a&/16 d&3 a&2 f) \beam( f a& f d&) f/8 _ \bar 
+   (* meas. 63 *)  \beam( a&/16 c3 a&2 e&) \beam( e& a& e& c) e&/8 _ \bar 
+   (* meas. 64 *)  \intens<"ff"> \beam( a&/16 d&3 a&2 f) \beam( f a& f d&) \beam( d& f d& a&1) \bar 
+   (* meas. 65 *)  \beam( a&2 d&3 a&2 f) \beam( f a& f d&) \beam( d& f d& a&1) \bar 
+   (* meas. 66 *)  \beam( a&2 d&3 a&2 f) \beam( f a& f d&) \beam( d& f d& a&1) \bar 
+   (* meas. 67 *)  \beam( a& d&2 a&1 f) \beam( f a& f d&) \beam( d& f d& a&0) \bar 
+   (* meas. 68 *)  \intens<"fz"> \beam( d&1 f& d& b&0) \beam( b& d&1 b&0 g) \intens<"fz"> \beam( d&1 f& d& b&0) \bar 
+   (* meas. 69 *)  \beam( b& d&1 b&0 g) \intens<"fz"> \beam( d&1 f& d& b&0) \beam( b& d&1 b&0 g) \bar 
+   (* meas. 70 *)  \beam( \accent( d&1) e& d& b&0) \beam( b& d&1 b&0 g) \beam( \accent( d&1) e& d& b&0) \bar 
+   (* meas. 71 *)  \intens<"p"> \beam( b& d&1 b&0 g) \beam( \accent( d&1) e& d& b&0) \beam( b& d&1 b&0 g) \bar 
+   (* meas. 72 *)  \slurBegin:1 e&1/4 a& g \slurEnd:1 \intens<"pp"> \bar 
+   (* meas. 73 *)  \slurBegin:1 f d&2 b&1 \slurEnd:1 \bar 
+   (* meas. 74 *)  \slurBegin:1 b& a& \slurEnd:1 a& \bar 
+   (* meas. 75 *)  \slurBegin:2 a& g \slurEnd:2 g \bar 
+   (* meas. 76 *)  e& a& g \bar 
+   (* meas. 77 *)  f f2 d& \bar 
+   (* meas. 78 *)  \slurBegin:1 d& c \slurEnd:1 c \bar 
+   (* meas. 79 *)  \slurBegin:1 c b&1 \slurEnd:1 b& \bar 
+   (* meas. 80 *)  \intens<"p"> \stemsDown \beam( c2/16 e& c a&1) \stemsUp \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 81 *)  \stemsDown \beam( d&2/16 f d& a&1) \stemsUp \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 82 *)  \stemsDown \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 83 *)  \stemsUp \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 84 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 85 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 86 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 87 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 88 *)  \intens<"p"> \beam( c2/16 e& c a&1) \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 89 *)  \beam( d&2/16 f d& a&1) \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 90 *)  \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 91 *)  \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 92 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 93 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 94 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 95 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 96 *)  \beam( e&/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 97 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 98 *)  \intens<"ff"> \beam( e&/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 99 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) \beam( a& c3 a&2 e&) \bar 
+   (* meas. 100 *)  \beam( e& a& e& c) \beam( c e& c a&1) \beam( a& c2 a&1 e&) \bar 
+   (* meas. 101 *)  \beam( e&2 a& e& c) \beam( c e& c a&1) \beam( a& c2 a&1 e&) \bar 
+   (* meas. 102 *)  \beam( e& a& e& c) \beam( c e& c a&0) \beam( e&1 a& e& c) \bar 
+   (* meas. 103 *)  _*3/4 \bar 
+   (* meas. 104 *)  _ \bar 
+   (* meas. 105 *)  \tieBegin a&/2. \bar 
+   (* meas. 106 *)  a&/2 \tieEnd \stemsDown \beam( e&/16 g& e& a&0) 
+   (* meas. 107 *)  \repeatBegin \key<4> \intens<"p"> \stemsUp g#1/2. \bar 
+   (* meas. 108 *)  \slurBegin:1 g#/4 a g# \slurEnd:1 \bar 
+   (* meas. 109 *)  \slurBegin:1 a/2. \bar 
+   (* meas. 110 *)  g#. \slurEnd:1 \bar 
+   (* meas. 111 *)  g#. \bar 
+   (* meas. 112 *)  \slurBegin:1 e2/4 d# c# \slurEnd:1 \bar 
+   (* meas. 113 *)  c#/2. \bar 
+   (* meas. 114 *)  b#1. \bar 
+   (* meas. 115 *)  b#/4 \tieBegin c#2/2 \bar 
+   (* meas. 116 *)  c#/4 \tieEnd \accent( c#) \accent( c#) \bar 
+   (* meas. 117 *)  \accent( c#) \accent( c##/2) \bar 
+   (* meas. 118 *)  c##/4 \accent( c##) \accent( c##) \bar 
+   (* meas. 119 *)  e d#/2 \bar 
+   (* meas. 120 *)  e/4 d#/2 \bar 
+   (* meas. 121 *)  \intens<"p"> g#1/2. \bar 
+   (* meas. 122 *)  g#. \crescBegin \dimBegin \dimEnd \repeatEnd 
+   (* meas. 123 *)  \tieBegin g#. \bar 
+   (* meas. 124 *)  g#/4 \tieEnd g# g# 
+   (* meas. 125 *)  \repeatBegin \slurBegin:1 g# \tieBegin a/2 \slurEnd:1 \bar 
+   (* meas. 126 *)  \slurBegin:1 a/4 \tieEnd g# f# \slurEnd:1 \bar 
+   (* meas. 127 *)  e g# c#2 \dimEnd \bar 
+   (* meas. 128 *)  \crescBegin e g# c#3 \crescEnd \bar 
+   (* meas. 129 *)  \intens<"f"> \slurBegin:1 d# \tieBegin e/2 \slurEnd:1 \dimBegin \bar 
+   (* meas. 130 *)  e/4 \tieEnd \dimEnd d# c# \bar 
+   (* meas. 131 *)  c# \intens<"p"> \intens<"p"> b#2 g# \bar 
+   (* meas. 132 *)  d# b#1 g# \bar 
+   (* meas. 133 *)  g# \tieBegin a/2 \bar 
+   (* meas. 134 *)  a/4 \tieEnd g# f# \bar 
+   (* meas. 135 *)  e g# \crescBegin c#2 \bar 
+   (* meas. 136 *)  e g# c#3 \crescEnd \bar 
+   (* meas. 137 *)  \intens<"f"> d# \dimBegin e/2 \dimEnd \bar 
+   (* meas. 138 *)  \dimBegin e/4 d# \dimEnd c# \bar 
+   (* meas. 139 *)  c#/2. \bar 
+   (* meas. 140 *)  g#2. \bar 
+   (* meas. 141 *)  \intens<"p"> g#1. \bar 
+   (* meas. 142 *)  \slurBegin:1 g#/4 a# g# \slurEnd:1 \bar 
+   (* meas. 143 *)  \slurBegin:1 a#/2. \bar 
+   (* meas. 144 *)  g#. \slurEnd:1 \bar 
+   (* meas. 145 *)  \slurBegin:1 g#. \bar 
+   (* meas. 146 *)  e#2/4 d# c# \slurEnd:1 \bar 
+   (* meas. 147 *)  \slurBegin:1 c#/2. \bar 
+   (* meas. 148 *)  b#1. \slurEnd:1 \bar 
+   (* meas. 149 *)  \slurBegin:1 b#/4 \tieBegin c#2/2 \slurEnd:1 \bar 
+   (* meas. 150 *)  c#/4 \tieEnd c# c# \bar 
+   (* meas. 151 *)  \slurBegin:1 c# \tieBegin c##/2 \slurEnd:1 \bar 
+   (* meas. 152 *)  c##/4 \tieEnd c## c## \bar 
+   (* meas. 153 *)  \slurBegin:1 e# f#/2 \slurEnd:1 \bar 
+   (* meas. 154 *)  f#/4 f# f# \bar 
+   (* meas. 155 *)  f# \tieBegin f##/2 \bar 
+   (* meas. 156 *)  f##/4 \tieEnd f## f## \bar 
+   (* meas. 157 *)  \accent( a) g#/2 \bar 
+   (* meas. 158 *)  \accent( a/4) g#/2 \bar 
+   (* meas. 159 *)  \tieBegin c#/2. \bar 
+   (* meas. 160 *)  c#/4 \tieEnd g#1 g# \repeatEnd 
+   (* meas. 161 *)  \intens<"p"> \tieBegin g#/2. \bar 
+   (* meas. 162 *)  g#/4 \tieEnd \slurBegin:1 \stacc( g#) \stacc( a#) \slurEnd:1 \bar 
+   (* meas. 163 *)  g#/2. \bar 
+   (* meas. 164 *)  \key<5> g#. \bar 
+   (* meas. 165 *)  \tieBegin f##. \bar 
+   (* meas. 166 *)  f##. \tieEnd \bar 
+   (* meas. 167 *)  \key<-4> \slurBegin:1 \beam( g/16 b& g f&) \stemsDown \beam( b& d&2 b&1 g) \beam( d&2 f& d& b&1) \slurEnd:1 \bar 
+   (* meas. 168 *)  \stemsUp \slurBegin:1 \beam( f&2 \crescBegin g f& d&) \beam( g b& g f&) \beam( b& d&3 b&2 g) \crescEnd \bar 
+   (* meas. 169 *)  \dimBegin \beam( d&3 f& d& b&2) \beam( d&3 f& d& b&2) \beam( d&3 f& d& b&2) \dimEnd \bar 
+   (* meas. 170 *)  \beam( d&3 f& d& b&2) \beam( d&3 f& d& b&2) \beam( d&3 f& d& b&2) \slurEnd:1 \bar 
+   (* meas. 171 *)  \slurBegin:1 \beam( d&3 e& d& b&2) \beam( d&3 e& d& b&2) \beam( d&3 e& d& b&2) \bar 
+   (* meas. 172 *)  \beam( d&3 e& d& b&2) \beam( d&3 e& d& b&2) \beam( d&3 e& d& b&2) \slurEnd:1 \bar 
+   (* meas. 173 *)  \intens<"pp"> \beam( c&3 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 174 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 175 *)  \beam( c&3/16 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 176 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 177 *)  \stacc( { a&/4, c&2 }) \stacc( { g1, b&, f&2 }) \stacc( { g1, b&, f&2 }) \bar 
+   (* meas. 178 *)  \stacc( { g1, b&, f&2 }) \stacc( { g1, b&, e&2 }) \stacc( { g1, b&, d&2 }) \bar 
+   (* meas. 179 *)  \beam( c&3/16 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 180 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 181 *)  \beam( c&3/16 e& c& a&2) \beam( a& c&3 a&2 e&) \beam( e& a& e& c&) \bar 
+   (* meas. 182 *)  \beam( c& e& c& a&1) \beam( a& c&2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 183 *)  \slurBegin:1 \stacc( { a&/4, c&2 }) \crescBegin \stacc( { g&1, b&, f&2 }) \stacc( { g&1, b&, f&2 }) \bar 
+   (* meas. 184 *)  \dimBegin \stacc( { g&1, b&, f&2 }) \dimEnd \stacc( { g&1, b&, e&2 }) \stacc( { g&1, b&, d2 }) \slurEnd:1 \dimEnd \bar 
+   (* meas. 185 *)  \beam( e&3/16 g& e& c&) \beam( c& e& c& g&2) \beam( g& c&3 g&2 e&) \bar 
+   (* meas. 186 *)  \beam( e& g& e& c&) \beam( c& e& c& g&1) { b&/8, d&2 } _ \bar 
+   (* meas. 187 *)  \beam( e&3/16 g& e& c&) \beam( c& e& c& g&2) \beam( g& c&3 g&2 e&) \bar 
+   (* meas. 188 *)  \beam( e& g& e& c&) \beam( c& e& c& g&1) { b&/8, d&2 } _ \bar 
+   (* meas. 189 *)  \slurBegin:1 \stacc( { c&/4, e& }) \crescBegin \stacc( { b&1, d&2, a& }) \stacc( { b&1, d&2, a& }) \slurEnd:1 \crescEnd \bar 
+   (* meas. 190 *)  \dimBegin \slurBegin:1 \stacc( { b&1, d&2, a& }) \stacc( { b&1, e&2, g& }) \stacc( { b&1, f&2 }) \slurEnd:1 \dimEnd \bar 
+   (* meas. 191 *)  \beam( d3/16 f# d b2) \beam( b d3 b2 f#) \beam( f# b f# d) \bar 
+   (* meas. 192 *)  \beam( d f# d b1) \beam( b d2 b1 f#) { a#/8, c#2 } _ \bar 
+   (* meas. 193 *)  \beam( d3/16 f# d b2) \beam( b d3 b2 f#) \beam( f# b f# d) \bar 
+   (* meas. 194 *)  \beam( d f# d b1) \beam( b d2 b1 f#) { a#/8, c#2 } _ \bar 
+   (* meas. 195 *)  \slurBegin:1 { f#1/4, b, d2 } \dimBegin \stacc( { c#, e, b }) \stacc( { c#, e, b }) \bar 
+   (* meas. 196 *)  \stacc( { c#, e, b }) \dimEnd \stacc( { c#, f#, a }) \stacc( { c#, g }) \slurEnd:1 \bar 
+   (* meas. 197 *)  \stacc( { d, f# }) \dimBegin \slurBegin:1 \stacc( { a#1, c#2, g }) \stacc( { a#1, c#2, g }) \bar 
+   (* meas. 198 *)  \stacc( { a#1, c#2, g }) \dimEnd \stacc( { a#1, c#2, f# }) \stacc( { c#, e }) \slurEnd:1 \bar 
+   (* meas. 199 *)  { b1, d#2 } \intens<"f"> \dimBegin \slurBegin:1 \stacc( { f&1, a&, f&2 }) \stacc( { f&1, a&, f&2 }) \bar 
+   (* meas. 200 *)  \stacc( { f&1, a&, f&2 }) \dimEnd \stacc( { e&1, a&, e&2 }) \stacc( { d&1, a&, d&2 }) \slurEnd:1 \bar 
+   (* meas. 201 *)  \intens<"p"> \slurBegin:1 \stacc( { e&1, a&, c&2 }) \stacc( { e&1, a&, c&2 }) \stacc( { e&1, a&, c&2 }) \bar 
+   (* meas. 202 *)  \stacc( { e&1, g, b& }) \stacc( { e&, g, b& }) \stacc( { e&, g, b& }) \slurEnd:1 \bar 
+   (* meas. 203 *)  \intens<"pp"> \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) \beam( e& a& e& c) \bar 
+   (* meas. 204 *)  \beam( c e& c a&1) \beam( a& c2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 205 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) \beam( e& a& e& c) \bar 
+   (* meas. 206 *)  \beam( c e& c a&1) \beam( a& c2 a&1 e&) { g/8, b& } _ \bar 
+   (* meas. 207 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) \beam( a& c3 a&2 e&) \bar 
+   (* meas. 208 *)  \beam( e& a& e& c) \beam( c e& c a&1) { g/8, b& } _ \bar 
+   (* meas. 209 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) \beam( a& c3 a&2 e&) \bar 
+   (* meas. 210 *)  \beam( e& a& e& c) \beam( c e& c a&1) { g/8, b& } _ \bar 
+   (* meas. 211 *)  \beam( c2/16 e& c a&1) \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 212 *)  \beam( d&2/16 f d& a&1) \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 213 *)  \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 214 *)  \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 215 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 216 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 217 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 218 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 219 *)  \beam( c2/16 \intens<"pp"> e& c a&1) \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 220 *)  \beam( d&2/16 f d& a&1) \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 221 *)  \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 222 *)  \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 223 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 224 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 225 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 226 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 227 *)  \beam( e&/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 228 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 229 *)  \beam( f2/16 a f c) \beam( c f c a1) c2/8 _ \bar 
+   (* meas. 230 *)  \beam( f/16 b& f d&) \beam( d& f d& b&1) d&2/8 _ \bar 
+   (* meas. 231 *)  \beam( f/16 a f c) \beam( c f c a1) c2/8 _ \bar 
+   (* meas. 232 *)  \beam( f/16 b& f d&) \beam( d& f d& b&1) d&2/8 _ \bar 
+   (* meas. 233 *)  \beam( a&/16 c3 a&2 e&) \beam( e& a& e& c) e&/8 _ \bar 
+   (* meas. 234 *)  \beam( a&/16 d&3 a&2 f) \beam( f a& f d&) f/8 _ \bar 
+   (* meas. 235 *)  \beam( a&/16 \ten( c3) a&2 e&) \beam( e& a& e& c) e&/8 _ \bar 
+   (* meas. 236 *)  \intens<"ff"> \beam( a&/16 d&3 a&2 f) \beam( f a& f d&) \beam( d& f d& a&1) \bar 
+   (* meas. 237 *)  \beam( a&2 d&3 a&2 f) \beam( f a& f d&) \beam( d& f d& a&1) \bar 
+   (* meas. 238 *)  \beam( a&2 d&3 a&2 f) \beam( f a& f d&) \beam( d& f d& a&1) \bar 
+   (* meas. 239 *)  \beam( a& d&2 a&1 f) \beam( f a& f d&) \beam( d& f d& a&0) \bar 
+   (* meas. 240 *)  \beam( d&1 f& d& b&0) \beam( b& d&1 b&0 g) \beam( d&1 f& d& b&0) \bar 
+   (* meas. 241 *)  \beam( b& d&1 b&0 g) \beam( d&1 f& d& b&0) \beam( b& d&1 b&0 g) \bar 
+   (* meas. 242 *)  \beam( \accent( d&1) e& d& b&0) \beam( b& d&1 b&0 g) \beam( \accent( d&1) e& d& b&0) \bar 
+   (* meas. 243 *)  \intens<"p"> \beam( b& d&1 b&0 g) \beam( \accent( d&1) e& d& b&0) \beam( b& d&1 b&0 g) \bar 
+   (* meas. 244 *)  \slurBegin:1 e&1/4 a& g \slurEnd:1 \intens<"pp"> \bar 
+   (* meas. 245 *)  \slurBegin:1 f d&2 b&1 \bar 
+   (* meas. 246 *)  \slurBegin:1 b& \slurEnd:1 a& \slurEnd:1 a& \bar 
+   (* meas. 247 *)  \slurBegin:2 a& g \slurEnd:2 g \bar 
+   (* meas. 248 *)  e& a& g \bar 
+   (* meas. 249 *)  f f2 d& \bar 
+   (* meas. 250 *)  \slurBegin:1 d& c \slurEnd:1 c \bar 
+   (* meas. 251 *)  \slurBegin:1 c b&1 \slurEnd:1 b& \bar 
+   (* meas. 252 *)  \intens<"p"> \stemsDown \beam( c2/16 e& c a&1) \stemsUp \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 253 *)  \stemsDown \beam( d&2/16 f d& a&1) \stemsUp \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 254 *)  \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 255 *)  \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 256 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 257 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 258 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 259 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 260 *)  \intens<"p"> \beam( c2/16 e& c a&1) \beam( a& c2 a&1 e&) a&/8 _ \bar 
+   (* meas. 261 *)  \beam( d&2/16 f d& a&1) \beam( a& d&2 a&1 f) a&/8 _ \bar 
+   (* meas. 262 *)  \beam( e&2/16 g e& b&1) \beam( b& e&2 b&1 g) b&/8 _ \bar 
+   (* meas. 263 *)  \beam( e&2/16 a& e& c) \beam( c e& c a&1) c2/8 _ \bar 
+   (* meas. 264 *)  \beam( c3/16 e& c a&2) \beam( a& c3 a&2 e&) a&/8 _ \bar 
+   (* meas. 265 *)  \beam( d&3/16 f d& a&2) \beam( a& d&3 a&2 f) a&/8 _ \bar 
+   (* meas. 266 *)  \beam( e&3/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 267 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 268 *)  \beam( e&/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 269 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) c3/8 _ \bar 
+   (* meas. 270 *)  \intens<"ff"> \beam( e&/16 g e& b&2) \beam( b& e&3 b&2 g) b&/8 _ \bar 
+   (* meas. 271 *)  \beam( e&3/16 a& e& c) \beam( c e& c a&2) \beam( a& c3 a&2 e&) \bar 
+   (* meas. 272 *)  \beam( e& a& e& c) \beam( c e& c a&1) \beam( a& c2 a&1 e&) \bar 
+   (* meas. 273 *)  \beam( e&2 a& e& c) \beam( c e& c a&1) \beam( a& c2 a&1 e&) \bar 
+   (* meas. 274 *)  \beam( e& a& e& c) \beam( c e& c a&0) \beam( e&1 a& e& c) \bar 
+   (* meas. 275 *)  a&0/4 _ _ \bar 
+   (* meas. 276 *)  \intens<"ff"> { e&2, g, b&, e&3 } _ _ \bar 
+   (* meas. 277 *)  { c2, e&, a&, c3 } _ _ ]
+, [ \staff<1> 
+   (* meas. 1 *)  \staff<2> \stemsUp \stacc( a&-1) { \tieBegin a&0/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 2 *)  \staff<2> { a&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { e&0/8, b&, e&1 } \staff<1> _ \bar 
+   (* meas. 3 *)  \staff<2> a&-1/4 { \tieBegin a&0/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 4 *)  \staff<2> { \tieBegin a&0 \tieEnd \tieBegin, c&1 \tieEnd } { e&0/8, b&, e&1 \tieEnd } \staff<1> _ \bar 
+   (* meas. 5 *)  \staff<2> \slurBegin:2 \stacc( { a&0/4 \tieEnd, c&1 \tieEnd, e& }) \stacc( { e&0, b&, f&1 }) \stacc( { e&0, b&, f&1 }) \staff<1> \bar 
+   (* meas. 6 *)  \staff<2> \stacc( { e&0, b&, f&1 }) \stacc( { e&0, b&, e&1 }) \stacc( { e&0, b&, d&1 }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 7 *)  \staff<2> a&-1 { \tieBegin a&0/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 8 *)  \staff<2> { a&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { e&0/8, b&, e&1 } \staff<1> _ \bar 
+   (* meas. 9 *)  \staff<2> a&-1/4 { \tieBegin a&0/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 10 *)  \staff<2> { a&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { e&0/8, b&, e&1 } \staff<1> _ \bar 
+   (* meas. 11 *)  \staff<2> \slurBegin:2 \stacc( { a&0/4, c&1, e& }) \stacc( { g&0, b&, f&1 }) \stacc( { g&0, b&, f&1 }) \staff<1> \bar 
+   (* meas. 12 *)  \staff<2> \stacc( { g&0, b&, f&1 }) \stacc( { g&0, b&, e&1 }) \stacc( { g&0, b&, d1 }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 13 *)  \staff<2> \stacc( c&0) { \tieBegin g&/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 14 *)  \staff<2> { g&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { g&0/8, f&1 } \staff<1> _ \bar 
+   (* meas. 15 *)  \staff<2> \stacc( c&0/4) { \tieBegin g&/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 16 *)  \staff<2> { g&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { g&0/8, f&1 } \staff<1> _ \bar 
+   (* meas. 17 *)  \staff<2> \slurBegin:1 \stacc( { c&/4, e& }) \stacc( { g&0, f&1 }) \stacc( { g&0, f&1 }) \slurEnd:1 \staff<1> \bar 
+   (* meas. 18 *)  \staff<2> \slurBegin:1 \stacc( { g&0, f&1 }) \stacc( { g&0, e&1 }) \stacc( { g&0, d&1 }) \slurEnd:1 \staff<1> \bar 
+   (* meas. 19 *)  \staff<2> \stacc( b-1) { \tieBegin f#0/2 \tieBegin, b \tieBegin, d1 } \staff<1> \bar 
+   (* meas. 20 *)  \staff<2> { f#0 \tieEnd, b \tieEnd, d1 \tieEnd } { f#0/8, e1 } \staff<1> _ \bar 
+   (* meas. 21 *)  \staff<2> \stacc( b-1/4) { \tieBegin f#0/2 \tieBegin, b \tieBegin, d1 } \staff<1> \bar 
+   (* meas. 22 *)  \staff<2> { f#0 \tieEnd, b \tieEnd, d1 \tieEnd } { f#0/8, e1 } \staff<1> _ \bar 
+   (* meas. 23 *)  \staff<2> \slurBegin:2 { b0/4, d1 } \stacc( { a0, g1 }) \stacc( { a0, g1 }) \staff<1> \bar 
+   (* meas. 24 *)  \staff<2> \stacc( { a0, g1 }) \stacc( { a0, f#1 }) \stacc( { a0, e1 }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 25 *)  \staff<2> \slurBegin:2 \stacc( { b0, d1 }) \stacc( { f#0, e1 }) \stacc( { f#0, e1 }) \staff<1> \bar 
+   (* meas. 26 *)  \staff<2> \stacc( { f#0, e1 }) \stacc( { f#0, c#1 }) \stacc( { f#0, a# }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 27 *)  \staff<2> { g#, b } \slurBegin:1 \stacc( { d&, a&, d&1 }) \stacc( { d&0, a&, d&1 }) \slurEnd:1 \staff<1> \bar 
+   (* meas. 28 *)  \staff<2> \slurBegin:1 \stacc( { d&0, a&, d&1 }) \stacc( { e&0, a&, c&1 }) \stacc( { f&0, a& }) \slurEnd:1 \staff<1> \bar 
+   (* meas. 29 *)  \staff<2> \slurBegin:2 \stacc( { e&, a&, c&1 }) \stacc( { e&0, a&, c&1 }) \stacc( { e&0, a&, c&1 }) \staff<1> \bar 
+   (* meas. 30 *)  \staff<2> \stacc( { e&0, g, b& }) \stacc( { e&, g, b& }) \stacc( { e&, g, b& }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 31 *)  \staff<2> a&-1 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 32 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 33 *)  \staff<2> a&-1/4 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 34 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 35 *)  \staff<2> a&-1/4 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 36 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 37 *)  \staff<2> a&-1/4 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 38 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 39 *)  \staff<2> a&-1/4 { g&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 40 *)  \staff<2> d&0/4 { f/2, a&, d&1 } \staff<1> \bar 
+   (* meas. 41 *)  \staff<2> e&-1/4 { e&0/2, b&, d&1 } \staff<1> \bar 
+   (* meas. 42 *)  \staff<2> a&-1/4 { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 43 *)  \staff<2> a&-1/4 { g&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 44 *)  \staff<2> d&0/4 { f/2, a&, d&1 } \staff<1> \bar 
+   (* meas. 45 *)  \staff<2> e&-1/4 \stemsDown { e&0/2, b&, d&1 } \staff<1> \bar 
+   (* meas. 46 *)  \staff<2> \stemsUp a&-1/4 \stemsDown { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 47 *)  \staff<2> \stemsUp \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 48 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 49 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 50 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/2) \slurEnd:1 \staff<1> \bar 
+   (* meas. 51 *)  \staff<2> \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 52 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 53 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 54 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 55 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 56 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 57 *)  \staff<2> \slurBegin:1 c/4 \accent( f/4.) e&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 58 *)  \staff<2> \slurBegin:1 d&/4 \accent( f/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 59 *)  \staff<2> \slurBegin:1 c/4 \accent( f/4.) e&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 60 *)  \staff<2> \slurBegin:1 d&/4 \accent( f/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 61 *)  \staff<2> \slurBegin:1 e&/4 \accent( a&/4.) g&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 62 *)  \staff<2> \slurBegin:1 f/4 \accent( a&/4.) f/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 63 *)  \staff<2> \slurBegin:1 e&/4 \accent( a&/4.) g&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 64 *)  \staff<2> f/4 \staff<1> _ _ \bar 
+   (* meas. 65 *)  _*3/4 \bar 
+   (* meas. 66 *)  \staff<2> a&/8 \staff<1> _ \staff<2> f \staff<1> _ \staff<2> d& \staff<1> _ \bar 
+   (* meas. 67 *)  \staff<2> a&0 \staff<1> _ \staff<2> f \staff<1> _ \staff<2> d& \staff<1> _ \bar 
+   (* meas. 68 *)  \staff<2> { g-1/2, b&, d&0, f& } { \tieBegin g-1/4 \tieBegin, b& \tieBegin, d&0 \tieBegin, f& } \staff<1> \bar 
+   (* meas. 69 *)  _/2 _/4 \bar 
+   (* meas. 70 *)  _/2 _/4 \bar 
+   (* meas. 71 *)  _/2 _/4 \bar 
+   (* meas. 72 *)  \stemsDown \beam( e&1/12 c a&0) \beam( a&1 e& c) \beam( g e& c) \bar 
+   (* meas. 73 *)  \beam( f d& a&0) \beam( d&2 f1 d&) \beam( b& f d&) \bar 
+   (* meas. 74 *)  \beam( b& e& d&) \beam( a& e& c) \beam( a& e& c) \bar 
+   (* meas. 75 *)  \slurBegin:2 \beam( a& e& c) \beam( g \slurEnd:2 e& b&0) \beam( g1 e& b&0) \bar 
+   (* meas. 76 *)  \slurBegin:1 \beam( e&1 c a&0) \beam( a&1 e& c) \beam( g e& c) \bar 
+   (* meas. 77 *)  \beam( f d& a&0) \beam( f2 a&1 f) \beam( d&2 f1 d&) \slurEnd:1 \bar 
+   (* meas. 78 *)  \slurBegin:1 \beam( d&2 a&1 e&) \beam( c2 \slurEnd:1 a&1 e&) \beam( c2 a&1 e&) \bar 
+   (* meas. 79 *)  \slurBegin:1 \beam( c2 e&1 d&) \beam( b& \slurEnd:1 e& d&) \beam( b& e& d&) \bar 
+   (* meas. 80 *)  _/2 _/4 \bar 
+   (* meas. 81 *)  _/2 _/4 \bar 
+   (* meas. 82 *)  _/2 _/4 \bar 
+   (* meas. 83 *)  \staff<2> \stemsUp \stacc( a&-1) { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 84 *)  \staff<2> \stacc( a&-1/4) { g&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 85 *)  \staff<2> d&0/4 { f/2, a&, d&1 } \staff<1> \bar 
+   (* meas. 86 *)  \staff<2> e&-1/4 { e&0/2, b&, d&1 } \staff<1> \bar 
+   (* meas. 87 *)  \staff<2> a&-1/4 \stemsDown { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 88 *)  \staff<2> \stemsUp \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 89 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 90 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 91 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/2) \slurEnd:1 \staff<1> \bar 
+   (* meas. 92 *)  \staff<2> \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 93 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 94 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 95 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 96 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 97 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 98 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 99 *)  \staff<2> c/4 \staff<1> _ _ \bar 
+   (* meas. 100 *)  _*3/4 \bar 
+   (* meas. 101 *)  \staff<2> \stemsDown e&/8 \staff<1> _ \staff<2> c \staff<1> _ \staff<2> a&0 \staff<1> _ \bar 
+   (* meas. 102 *)  \staff<2> e& \staff<1> _ \staff<2> \stemsUp c \staff<1> _ \staff<2> \stemsDown e& \staff<1> _ \bar 
+   (* meas. 103 *)  _/2 _/4 \bar 
+   (* meas. 104 *)  _/2 _/4 \bar 
+   (* meas. 105 *)  \beam( e&1/16 g& e& a&0) \beam( e&1 g& e& a&0) \beam( e&1 g& e& a&0) \bar 
+   (* meas. 106 *)  \beam( e&1 g& e& a&0) \beam( e&1 g& e& a&0) _/4 
+   (* meas. 107 *)  \repeatBegin _/8 \beam( { g#, e1 } { g#0, e1 } { g#0, e1 } { g#0, e1 } { g#0, e1 }) \bar 
+   (* meas. 108 *)  _ { g#0, e1 } _ { a0, e1 } _ { g#0, e1 } \bar 
+   (* meas. 109 *)  _ \beam( { a0, f#1 } { a0, f#1 } { a0, f#1 } { a0, f#1 } { a0, f#1 }) \bar 
+   (* meas. 110 *)  _ \beam( { g#0, f#1 } { g#0, f#1 } { g#0, f#1 } { g#0, f#1 } { g#0, f#1 }) \bar 
+   (* meas. 111 *)  _ \beam( { g#0, e1 } { g#0, e1 } { g#0, e1 } { g#0, e1 } { g#0, e1 }) \bar 
+   (* meas. 112 *)  _ { e, g# } _ { d#, g# } _ { c#, g# } \bar 
+   (* meas. 113 *)  _ \beam( { c#, g# } { c#, g# } { c#, g# } { c#, g# } { c#, g# }) \bar 
+   (* meas. 114 *)  _ \beam( { b#0, g#1 } { b#0, g#1 } { b#0, g#1 } { b#0, g#1 } { b#0, g#1 }) \bar 
+   (* meas. 115 *)  _ { b#0, a1 } _ \beam( { c#, a } { c#, a } { c#, a }) \bar 
+   (* meas. 116 *)  \beam( { c#, a } { c#, a }) _ { c#, a } _ { c#, a } \bar 
+   (* meas. 117 *)  _ { c#, g# } _ \beam( { c##, g# } { c##, g# } { c##, g# }) \bar 
+   (* meas. 118 *)  \beam( { c##, g# } { c##, g# }) _ { c##, g# } _ { c##, g# } \bar 
+   (* meas. 119 *)  _ { e, g# } _ \beam( { d#, g# } { d#, g# } { d#, g# }) \bar 
+   (* meas. 120 *)  _ { e, f## } _ \beam( { d#, f## } { d#, f## } { d#, f## }) \bar 
+   (* meas. 121 *)  _ \beam( { b0, d#1 } { b0, d#1 } { b0, d#1 } { b0, d#1 } { b0, d#1 }) \bar 
+   (* meas. 122 *)  _ \beam( { b#0, d#1, f# } { b#0, d#1, f# } { b#0, d#1, f# } { b#0, d#1, f# } { b#0, d#1, f# }) \repeatEnd 
+   (* meas. 123 *)  _ \beam( { b0, d#1 } { b0, d#1 } { b0, d#1 } { b0, d#1 } { b0, d#1 }) \bar 
+   (* meas. 124 *)  \beam( { b0, d#1 } { b0, d#1 }) _ { b0, d#1 } _ { b0, d#1 } 
+   (* meas. 125 *)  \repeatBegin _ { b#0, d#1 } _ { b#0, d#1 } \beam( { b#0, d#1 } { b#0, d#1 }) \bar 
+   (* meas. 126 *)  \beam( { b#0, d#1 } { b#0, d#1 }) _ { b#0, d#1 } _ { b#0, d#1 } \bar 
+   (* meas. 127 *)  \beam( e { g#0, c#1 }) \beam( g# { c#, e }) \beam( c#2 { e1, g# }) \bar 
+   (* meas. 128 *)  \beam( e2 { g#1, c#2 }) \beam( g# { c#, e }) \beam( c#3 { e2, g# }) \bar 
+   (* meas. 129 *)  _ { d#, f## } _ \beam( { e, f## } { e, f## } { e, f## }) \bar 
+   (* meas. 130 *)  \beam( { e, f## } { e, f## }) _ { d#, f## } _ { c#, f## } \bar 
+   (* meas. 131 *)  \beam( c#3 { d#2, g# }) \beam( b# { d#, g# }) \beam( g# { b#1, d#2 }) \bar 
+   (* meas. 132 *)  \beam( d# { g#1, b# }) \beam( b# { d#, g# }) \beam( g# { b#0, d#1 }) \bar 
+   (* meas. 133 *)  _ { b#0, d#1 } _ { b#0, d#1 } \beam( { b#0, d#1 } { b#0, d#1 }) \bar 
+   (* meas. 134 *)  \beam( { b#0, d#1 } { b#0, d#1 }) _ { b#0, d#1 } _ { b#0, d#1 } \bar 
+   (* meas. 135 *)  \beam( e { g#0, c#1 }) \beam( g# { c#, e }) \beam( c#2 { e1, g# }) \bar 
+   (* meas. 136 *)  \beam( e2 { g#1, c#2 }) \beam( g# { c#, e }) \beam( c#3 { e2, g# }) \bar 
+   (* meas. 137 *)  _ { d#, f## } _ \slurBegin:1 \beam( { e, f## } { e, f## } { e, f## }) \slurEnd:1 \bar 
+   (* meas. 138 *)  \beam( { e, f## } { e, f## }) \beam( d#3 { d#2, f## }) \beam( c#3 { c#2, f## }) \bar 
+   (* meas. 139 *)  _ \beam( { c#, e, g# } { c#, e, g# } { c#, e, g# } { c#, e, g# } { c#, e, g# }) \bar 
+   (* meas. 140 *)  _ \beam( { b#1, d#2 } { b#1, d#2 } { b#1, d#2 } { b#1, d#2 } { b#1, d#2 }) \bar 
+   (* meas. 141 *)  _ \beam( { g#0, e#1 } { g#0, e#1 } { g#0, e#1 } { g#0, e#1 } { g#0, e#1 }) \bar 
+   (* meas. 142 *)  \beam( g# { g#0, e#1 }) \beam( a# { a#0, e#1 }) \beam( g# { g#0, e#1 }) \bar 
+   (* meas. 143 *)  _ \beam( { g#0, f#1 } { g#0, f#1 } { g#0, f#1 } { g#0, f#1 } { g#0, f#1 }) \bar 
+   (* meas. 144 *)  _ \beam( { g#0, f#1 } { g#0, f#1 } { g#0, f#1 } { g#0, f#1 } { g#0, f#1 }) \bar 
+   (* meas. 145 *)  _ \beam( { g#0, e#1 } { g#0, e#1 } { g#0, e#1 } { g#0, e#1 } { g#0, e#1 }) \bar 
+   (* meas. 146 *)  _ { e#, g# } _ { d#, g# } _ { c#, g# } \bar 
+   (* meas. 147 *)  _ \beam( { c#, g# } { c#, g# } { c#, g# } { c#, g# } { c#, g# }) \bar 
+   (* meas. 148 *)  _ \beam( { b#0, g#1 } { b#0, g#1 } { b#0, g#1 } { b#0, g#1 } { b#0, g#1 }) \bar 
+   (* meas. 149 *)  _ { b#0, a1 } _ \beam( { c#, a } { c#, a } { c#, a }) \bar 
+   (* meas. 150 *)  \beam( { c#, a } { c#, a }) _ { c#, a } _ { c#, a } \bar 
+   (* meas. 151 *)  _ { c#, g# } _ \beam( { c##, g# } { c##, g# } { c##, g# }) \bar 
+   (* meas. 152 *)  \beam( { c##, g# } { c##, g# }) _ { c##, g# } _ { c##, g# } \bar 
+   (* meas. 153 *)  _ { e#, d2 } _ \slurBegin:1 { f#1, d2 } \beam( { f#1, d2 } { f#1, d2 }) \slurEnd:1 \bar 
+   (* meas. 154 *)  \beam( { f#1, d2 } { f#1, d2 }) _ { f#1, d2 } _ { f#1, d2 } \bar 
+   (* meas. 155 *)  _ { f#1, c#2 } _ { f##1, c#2 } \beam( { f##1, c#2 } { f##1, c#2 }) \bar 
+   (* meas. 156 *)  \beam( { f##1, c#2 } { f##1, c#2 }) _ { f##1, c#2 } _ { f##1, c#2 } \bar 
+   (* meas. 157 *)  _ { a1, c#2 } _ \beam( { g#1, c#2 } { g#1, c#2 } { g#1, c#2 }) \bar 
+   (* meas. 158 *)  _ { a1, b# } _ \beam( { g#, b# } { g#, b# } { g#, b# }) \bar 
+   (* meas. 159 *)  _ \beam( { c#, e, g# } { c#, e, g# } { c#, e, g# } { c#, e, g# } { c#, e, g# }) \bar 
+   (* meas. 160 *)  \beam( { c#, e, g# } { c#, e, g# }) _ { c#, e } _ { c#, e } \repeatEnd 
+   (* meas. 161 *)  _ \beam( { c#, e } { c#, e } { c#, e } { c#, e } { c#, e }) \bar 
+   (* meas. 162 *)  \beam( { c#, e } { c#, e }) _ { c#, e } _ { c#, e } \bar 
+   (* meas. 163 *)  _ \beam( { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 }) \bar 
+   (* meas. 164 *)  \beam( { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 }) \bar 
+   (* meas. 165 *)  _ \beam( { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 }) \bar 
+   (* meas. 166 *)  \beam( { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 } { a#0, c#1 }) \bar 
+   (* meas. 167 *)  _/2 _/4 \bar 
+   (* meas. 168 *)  \staff<2> \stemsUp { e&0/2. \tieEnd, b&. \tieEnd, d&1. \tieEnd } \staff<1> \bar 
+   (* meas. 169 *)  \staff<2> { \tieBegin e&0. \tieBegin, g. \tieBegin, b&. \tieBegin, d&1. } \staff<1> \bar 
+   (* meas. 170 *)  \staff<2> { e&0. \tieEnd, g. \tieEnd, b&. \tieEnd, d&1. \tieEnd } \staff<1> \bar 
+   (* meas. 171 *)  \staff<2> { \tieBegin e&0. \tieBegin, g. \tieBegin, b&. \tieBegin, d&1. } \staff<1> \bar 
+   (* meas. 172 *)  \staff<2> { e&0. \tieEnd, g. \tieEnd, b&. \tieEnd, d&1. \tieEnd } \staff<1> \bar 
+   (* meas. 173 *)  \staff<2> a&-1/4 { \tieBegin a&0/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 174 *)  \staff<2> { \tieBegin a&0 \tieEnd \tieBegin, c&1 \tieEnd } { e&0/8, b&, e&1 \tieEnd } \staff<1> _ \bar 
+   (* meas. 175 *)  \staff<2> a&-1/4 { \tieBegin a&0/2 \tieEnd \tieBegin, c&1 \tieEnd \tieBegin, e& } \staff<1> \bar 
+   (* meas. 176 *)  \staff<2> { a&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { e&0/8, b&, e&1 } \staff<1> _ \bar 
+   (* meas. 177 *)  \staff<2> \stacc( { a&0/4, c&1, e& }) \stacc( { e&0, b&, f&1 }) \stacc( { e&0, b&, f&1 }) \staff<1> \bar 
+   (* meas. 178 *)  \staff<2> \stacc( { e&0, b&, f&1 }) \stacc( { e&0, b&, e&1 }) \stacc( { e&0, b&, d&1 }) \staff<1> \bar 
+   (* meas. 179 *)  \staff<2> a&-1 { \tieBegin a&0/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 180 *)  \staff<2> { a&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { e&0/8, b&, e&1 } \staff<1> _ \bar 
+   (* meas. 181 *)  \staff<2> a&-1/4 { \tieBegin a&0/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 182 *)  \staff<2> { a&0 \tieEnd, c&1 \tieEnd } { e&0/8, b&, e&1 \tieEnd } \staff<1> _ \bar 
+   (* meas. 183 *)  \staff<2> \slurBegin:2 \stacc( { a&0/4, c&1, e& }) \stacc( { g&0, b&, f&1 }) \stacc( { g&0, b&, f&1 }) \staff<1> \bar 
+   (* meas. 184 *)  \staff<2> \stacc( { g&0, b&, f&1 }) \stacc( { g&0, b&, e&1 }) \stacc( { g&0, b&, d1 }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 185 *)  \staff<2> \stacc( c&0) { \tieBegin g&/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 186 *)  \staff<2> { g&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { g&0/8, f&1 } \staff<1> _ \bar 
+   (* meas. 187 *)  \staff<2> \stacc( c&0/4) { \tieBegin g&/2 \tieBegin, c&1 \tieBegin, e& } \staff<1> \bar 
+   (* meas. 188 *)  \staff<2> { g&0 \tieEnd, c&1 \tieEnd, e& \tieEnd } { g&0/8, f&1 } \staff<1> _ \bar 
+   (* meas. 189 *)  \staff<2> \slurBegin:1 \stacc( { c&/4, e& }) \stacc( { g&0, f&1 }) \stacc( { g&0, f&1 }) \slurEnd:1 \staff<1> \bar 
+   (* meas. 190 *)  \staff<2> \slurBegin:1 \stacc( { g&0, f&1 }) \stacc( { g&0, e&1 }) \stacc( { g&0, d&1 }) \slurEnd:1 \staff<1> \bar 
+   (* meas. 191 *)  \staff<2> b-1 { \tieBegin f#0/2 \tieBegin, b \tieBegin, d1 } \staff<1> \bar 
+   (* meas. 192 *)  \staff<2> { f#0 \tieEnd, b \tieEnd, d1 \tieEnd } { f#0/8, e1 } \staff<1> _ \bar 
+   (* meas. 193 *)  \staff<2> b-1/4 { \tieBegin f#0/2 \tieBegin, b \tieBegin, d1 } \staff<1> \bar 
+   (* meas. 194 *)  \staff<2> { f#0 \tieEnd, b \tieEnd, d1 \tieEnd } { f#0/8, e1 } \staff<1> _ \bar 
+   (* meas. 195 *)  \staff<2> \slurBegin:2 { b0/4, d1 } \stacc( { a0, g1 }) \stacc( { a0, g1 }) \staff<1> \bar 
+   (* meas. 196 *)  \staff<2> \stacc( { a0, g1 }) \stacc( { a0, f#1 }) \stacc( { a0, e1 }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 197 *)  \staff<2> \slurBegin:2 \stacc( { b0, d1 }) \stacc( { f#0, e1 }) \stacc( { f#0, e1 }) \staff<1> \bar 
+   (* meas. 198 *)  \staff<2> \stacc( { f#0, e1 }) \stacc( { f#0, c#1 }) \stacc( { f#0, a# }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 199 *)  \staff<2> { g#, b } \slurBegin:2 \stacc( { d&, a&, d&1 }) \stacc( { d&0, a&, d&1 }) \staff<1> \bar 
+   (* meas. 200 *)  \staff<2> \stacc( { d&0, a&, d&1 }) \stacc( { e&0, a&, c&1 }) \stacc( { f&0, a& }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 201 *)  \staff<2> \slurBegin:2 \stacc( { e&, a&, c&1 }) \stacc( { e&0, a&, c&1 }) \stacc( { e&0, a&, c&1 }) \staff<1> \bar 
+   (* meas. 202 *)  \staff<2> \stacc( { e&0, g, b& }) \stacc( { e&, g, b& }) \stacc( { e&, g, b& }) \slurEnd:2 \staff<1> \bar 
+   (* meas. 203 *)  \staff<2> a&-1 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 204 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 205 *)  \staff<2> a&-1/4 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 206 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 207 *)  \staff<2> a&-1/4 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 208 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 209 *)  \staff<2> a&-1/4 { \tieBegin e&0/2 \tieBegin, a& \tieBegin, c1 } \staff<1> \bar 
+   (* meas. 210 *)  \staff<2> { e&0 \tieEnd, a& \tieEnd, c1 \tieEnd } { e&0/8, d&1 } \staff<1> _ \bar 
+   (* meas. 211 *)  \staff<2> a&-1/4 { g&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 212 *)  \staff<2> d&0/4 { f/2, a&, d&1 } \staff<1> \bar 
+   (* meas. 213 *)  \staff<2> e&-1/4 { e&0/2, b&, d&1 } \staff<1> \bar 
+   (* meas. 214 *)  \staff<2> a&-1/4 { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 215 *)  \staff<2> a&-1/4 { g&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 216 *)  \staff<2> d&0/4 { f/2, a&, d&1 } \staff<1> \bar 
+   (* meas. 217 *)  \staff<2> e&-1/4 \stemsDown { e&0/2, b&, d&1 } \staff<1> \bar 
+   (* meas. 218 *)  \staff<2> \stemsUp a&-1/4 \stemsDown { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 219 *)  \staff<2> \stemsUp \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 220 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 221 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 222 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/2) \slurEnd:1 \staff<1> \bar 
+   (* meas. 223 *)  \staff<2> \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 224 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 225 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 226 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 227 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 228 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 229 *)  \staff<2> \slurBegin:1 c/4 \accent( f/4.) e&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 230 *)  \staff<2> \slurBegin:1 d&/4 \accent( f/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 231 *)  \staff<2> \slurBegin:1 c/4 \accent( f/4.) e&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 232 *)  \staff<2> \slurBegin:1 d&/4 \accent( f/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 233 *)  \staff<2> \slurBegin:1 e&/4 \accent( a&/4.) g&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 234 *)  \staff<2> \slurBegin:1 f/4 \accent( a&/4.) f/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 235 *)  \staff<2> \slurBegin:1 e&/4 \accent( a&/4.) g&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 236 *)  \staff<2> f/4 \staff<1> _ _ \bar 
+   (* meas. 237 *)  _*3/4 \bar 
+   (* meas. 238 *)  \staff<2> a&/8 \staff<1> _ \staff<2> f \staff<1> _ \staff<2> d& \staff<1> _ \bar 
+   (* meas. 239 *)  \staff<2> a&0 \staff<1> _ \staff<2> f \staff<1> _ \staff<2> d& \staff<1> _ \bar 
+   (* meas. 240 *)  \staff<2> { g-1/2, b&, d&0, f& } { \tieBegin g-1/4 \tieBegin, b& \tieBegin, d&0 \tieBegin, f& } \staff<1> \bar 
+   (* meas. 241 *)  _/2 _/4 \bar 
+   (* meas. 242 *)  _/2 _/4 \bar 
+   (* meas. 243 *)  _/2 _/4 \bar 
+   (* meas. 244 *)  \stemsDown \beam( e&1/12 c a&0) \beam( a&1 e& c) \beam( g e& c) \bar 
+   (* meas. 245 *)  \beam( f d& a&0) \beam( d&2 f1 d&) \beam( b& f d&) \bar 
+   (* meas. 246 *)  \slurBegin:1 \beam( b& e& d&) \beam( a& \slurEnd:1 e& c) \beam( a& e& c) \bar 
+   (* meas. 247 *)  \slurBegin:2 \beam( a& e& c) \beam( g \slurEnd:2 e& b&0) \beam( g1 e& b&0) \bar 
+   (* meas. 248 *)  \slurBegin:1 \beam( e&1 c a&0) \beam( a&1 e& c) \beam( g e& c) \bar 
+   (* meas. 249 *)  \beam( f d& a&0) \beam( f2 a&1 f) \beam( d&2 f1 d&) \slurEnd:1 \bar 
+   (* meas. 250 *)  \slurBegin:1 \beam( d&2 a&1 e&) \beam( c2 \slurEnd:1 a&1 e&) \beam( c2 a&1 e&) \bar 
+   (* meas. 251 *)  \slurBegin:1 \beam( c2 e&1 d&) \beam( b& \slurEnd:1 e& d&) \beam( b& e& d&) \bar 
+   (* meas. 252 *)  _/2 _/4 \bar 
+   (* meas. 253 *)  _/2 _/4 \bar 
+   (* meas. 254 *)  \staff<2> \stemsUp \stacc( e&-1) { e&0/2, b&, d&1 } \staff<1> \bar 
+   (* meas. 255 *)  \staff<2> \stacc( a&-1/4) { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 256 *)  \staff<2> \stacc( a&-1/4) { g&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 257 *)  \staff<2> d&0/4 { f/2, a&, d&1 } \staff<1> \bar 
+   (* meas. 258 *)  \staff<2> e&-1/4 \stemsDown { e&0/2, b&, d&1 } \staff<1> \bar 
+   (* meas. 259 *)  \staff<2> \stemsUp a&-1/4 \stemsDown { e&0/2, a&, c1 } \staff<1> \bar 
+   (* meas. 260 *)  \staff<2> \stemsUp \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 261 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 262 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 263 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/2) \slurEnd:1 \staff<1> \bar 
+   (* meas. 264 *)  \staff<2> \slurBegin:1 e&0/4 \accent( a&/4.) g/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 265 *)  \staff<2> \slurBegin:1 f/4 \accent( d&1/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 266 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 267 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 268 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 269 *)  \staff<2> \slurBegin:1 c/4 \accent( e&/4.) c/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 270 *)  \staff<2> \slurBegin:1 b&0/4 \accent( e&1/4.) d&/8 \slurEnd:1 \staff<1> \bar 
+   (* meas. 271 *)  \staff<2> c/4 \staff<1> _ _ \bar 
+   (* meas. 272 *)  _*3/4 \bar 
+   (* meas. 273 *)  \staff<2> e&/8 \staff<1> _ \staff<2> c \staff<1> _ \staff<2> a&0 \staff<1> _ \bar 
+   (* meas. 274 *)  \staff<2> e& \staff<1> _ \staff<2> c \staff<1> _ \staff<2> e& \staff<1> _ \bar 
+   (* meas. 275 *)  \staff<2> a&-1/4 \staff<1> _ _ \bar 
+   (* meas. 276 *)  \staff<2> { e&, e&0 } \staff<1> _ _ \bar 
+   (* meas. 277 *)  \staff<2> { a&-2, a&-1 } \staff<1> _ _ ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<-4> \meter<"3/4", autoBarlines="off"> \clef<"f4"> _*3/4 \bar 
+   (* meas. 2 *)  _ \bar 
+   (* meas. 3 *)  _ \bar 
+   (* meas. 4 *)  _ \bar 
+   (* meas. 5 *)  _ \bar 
+   (* meas. 6 *)  _ \bar 
+   (* meas. 7 *)  _ \bar 
+   (* meas. 8 *)  _ \bar 
+   (* meas. 9 *)  _ \bar 
+   (* meas. 10 *)  _ \bar 
+   (* meas. 11 *)  _ \bar 
+   (* meas. 12 *)  _ \bar 
+   (* meas. 13 *)  _ \bar 
+   (* meas. 14 *)  _ \bar 
+   (* meas. 15 *)  _ \bar 
+   (* meas. 16 *)  _ \bar 
+   (* meas. 17 *)  _ \bar 
+   (* meas. 18 *)  _ \bar 
+   (* meas. 19 *)  _ \bar 
+   (* meas. 20 *)  _ \bar 
+   (* meas. 21 *)  _ \bar 
+   (* meas. 22 *)  _ \bar 
+   (* meas. 23 *)  _ \bar 
+   (* meas. 24 *)  _ \bar 
+   (* meas. 25 *)  _ \bar 
+   (* meas. 26 *)  _ \bar 
+   (* meas. 27 *)  _ \bar 
+   (* meas. 28 *)  _ \bar 
+   (* meas. 29 *)  _ \bar 
+   (* meas. 30 *)  _ \bar 
+   (* meas. 31 *)  _ \bar 
+   (* meas. 32 *)  _ \bar 
+   (* meas. 33 *)  _ \bar 
+   (* meas. 34 *)  _ \bar 
+   (* meas. 35 *)  _ \bar 
+   (* meas. 36 *)  _ \bar 
+   (* meas. 37 *)  _ \bar 
+   (* meas. 38 *)  _ \bar 
+   (* meas. 39 *)  _ \bar 
+   (* meas. 40 *)  _ \bar 
+   (* meas. 41 *)  _ \bar 
+   (* meas. 42 *)  _ \bar 
+   (* meas. 43 *)  _ \bar 
+   (* meas. 44 *)  _ \bar 
+   (* meas. 45 *)  _/2 _/4 \bar 
+   (* meas. 46 *)  _/2 _/4 \bar 
+   (* meas. 47 *)  \stemsDown a&-1/2. \bar 
+   (* meas. 48 *)  d&0. \bar 
+   (* meas. 49 *)  e&. \bar 
+   (* meas. 50 *)  a&. \bar 
+   (* meas. 51 *)  a&-1. \bar 
+   (* meas. 52 *)  d&0. \bar 
+   (* meas. 53 *)  e&. \bar 
+   (* meas. 54 *)  a&. \bar 
+   (* meas. 55 *)  e&. \bar 
+   (* meas. 56 *)  a&. \bar 
+   (* meas. 57 *)  f. \bar 
+   (* meas. 58 *)  b&. \bar 
+   (* meas. 59 *)  f. \bar 
+   (* meas. 60 *)  b&. \bar 
+   (* meas. 61 *)  a&. \bar 
+   (* meas. 62 *)  d&1. \bar 
+   (* meas. 63 *)  a&0. \bar 
+   (* meas. 64 *)  d&1/4 _ _ \bar 
+   (* meas. 65 *)  _*3/4 \bar 
+   (* meas. 66 *)  _ \bar 
+   (* meas. 67 *)  \clef<"f4"> _ \bar 
+   (* meas. 68 *)  _ \bar 
+   (* meas. 69 *)  \stemsUp { g-1/4 \tieEnd, b& \tieEnd, d&0 \tieEnd, f& \tieEnd } { g-1/2, b&, d&0, f& } \bar 
+   (* meas. 70 *)  { g-1, b&, d&0, e& } { \tieBegin g-1/4 \tieBegin, b& \tieBegin, d&0 \tieBegin, e& } \bar 
+   (* meas. 71 *)  { g-1 \tieEnd, b& \tieEnd, d&0 \tieEnd, e& \tieEnd } { g-1/2, b&, d&0, e& } \bar 
+   (* meas. 72 *)  \slurBegin:1 a&-1 c0/4 \slurEnd:1 \bar 
+   (* meas. 73 *)  \stemsDown \slurBegin:1 d& \stemsUp b&-1 \stemsDown d&0 \slurEnd:1 \bar 
+   (* meas. 74 *)  \slurBegin:1 e&/2. \bar 
+   (* meas. 75 *)  \stemsUp e&-1. \slurEnd:1 \bar 
+   (* meas. 76 *)  \slurBegin:2 a&/2 c0/4 \bar 
+   (* meas. 77 *)  \stemsDown d& \stemsUp b&-1 \slurEnd:2 \stemsDown { \tieBegin d&0 \tieBegin, b& } \bar 
+   (* meas. 78 *)  \stemsUp b& \tieEnd a& \tieBegin a& \bar 
+   (* meas. 79 *)  \slurBegin:1 a& \tieEnd g \slurEnd:1 g \bar 
+   (* meas. 80 *)  \stacc( a&-1) \stemsDown { g&0/2, a&, c1 } \bar 
+   (* meas. 81 *)  \stacc( d&0/4 \tieEnd) { f/2, a&, d&1 } \bar 
+   (* meas. 82 *)  \stemsUp \stacc( e&-1/4) \stemsDown { e&0/2, b&, d&1 } \bar 
+   (* meas. 83 *)  _*3/4 \bar 
+   (* meas. 84 *)  _ \bar 
+   (* meas. 85 *)  _ \bar 
+   (* meas. 86 *)  _ \bar 
+   (* meas. 87 *)  _/2 _/4 \bar 
+   (* meas. 88 *)  a&-1/2. \bar 
+   (* meas. 89 *)  d&0. \bar 
+   (* meas. 90 *)  e&. \bar 
+   (* meas. 91 *)  a&. \bar 
+   (* meas. 92 *)  a&-1. \bar 
+   (* meas. 93 *)  d&0. \bar 
+   (* meas. 94 *)  e&. \bar 
+   (* meas. 95 *)  a&. \bar 
+   (* meas. 96 *)  e&. \bar 
+   (* meas. 97 *)  a&. \bar 
+   (* meas. 98 *)  e&. \bar 
+   (* meas. 99 *)  a&/4 _ _ \bar 
+   (* meas. 100 *)  _/2 _/4 \bar 
+   (* meas. 101 *)  _/2 _/4 \bar 
+   (* meas. 102 *)  _/2 _/4 \bar 
+   (* meas. 103 *)  \intens<"p"> \stemsUp \beam( a&/16 c1 a&0 e&) \beam( a& c1 a&0 e&) \beam( a& c1 a&0 e&) \bar 
+   (* meas. 104 *)  \beam( a& c1 a&0 e&) \beam( a& c1 a&0 e&) \beam( a& c1 a&0 e&) \bar 
+   (* meas. 105 *)  { \tieBegin c-1/2. \tieBegin, a&. \tieBegin, c0. } \bar 
+   (* meas. 106 *)  { c-1. \tieEnd, a&. \tieEnd, c0. \tieEnd } 
+   (* meas. 107 *)  \repeatBegin \key<4> \beam( c#-1/8 { g#, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 108 *)  \beam( { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 109 *)  \beam( b#-2 { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 110 *)  \beam( { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 111 *)  \beam( c#-1 { g#, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 112 *)  \beam( { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 113 *)  \beam( d#-1 { g#, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 114 *)  \beam( { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 115 *)  \beam( e-1 { a, e0 } { a-1, e0 } { a-1, e0 } { a-1, e0 } { a-1, e0 }) \bar 
+   (* meas. 116 *)  \beam( { a-1, e0 } { a-1, e0 }) \beam( e-1 { a, e0 }) \beam( e-1 { a, e0 }) \bar 
+   (* meas. 117 *)  \beam( b-2 { e-1, b } { e, b } { e, b } { e, b } { e, b }) \bar 
+   (* meas. 118 *)  \beam( { e, b } { e, b }) \beam( b-2 { e-1, b }) \beam( e { b, e0 }) \bar 
+   (* meas. 119 *)  _ \beam( { b-1, d#0 } { b-1, d#0 } { b-1, d#0 } { b-1, d#0 } { b-1, d#0 }) \bar 
+   (* meas. 120 *)  _ \beam( { a#-1, c#0, d# } { a#-1, c#0, d# } { a#-1, c#0, d# } { a#-1, c#0, d# } { a#-1, c#0, d# }) \bar 
+   (* meas. 121 *)  _ \beam( { b-1, d#0 } { b-1, d#0 } { b-1, d#0 } { b-1, d#0 } { b-1, d#0 }) \bar 
+   (* meas. 122 *)  _ \beam( { d#, f# } { d#, f# } { d#, f# } { d#, f# } { d#, f# }) \repeatEnd 
+   (* meas. 123 *)  _ \beam( { d#, g# } { d#, g# } { d#, g# } { d#, g# } { d#, g# }) \bar 
+   (* meas. 124 *)  \beam( { d#, g# } { d#, g# }) _ { d#, g# } _ { d#, g# } 
+   (* meas. 125 *)  \repeatBegin \beam( g#-2 { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 126 *)  \beam( { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 127 *)  \beam( g#-2 { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 128 *)  \beam( { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 129 *)  \beam( a-2 { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e }) \bar 
+   (* meas. 130 *)  \beam( { a-1, c#0, e } { a-1, c#0, e } { a-1, d#0 } { a-1, d#0 } { a-1, d#0 } { a-1, d#0 }) \bar 
+   (* meas. 131 *)  \beam( g#-2 g#-1 { g#, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 }) \bar 
+   (* meas. 132 *)  \beam( { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 }) \bar 
+   (* meas. 133 *)  \beam( g#-2 { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 134 *)  \beam( { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 135 *)  \beam( g#-2 { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 136 *)  \beam( { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 137 *)  \beam( a-2 { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e }) \bar 
+   (* meas. 138 *)  \beam( { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e } { a-1, c#0, e }) \bar 
+   (* meas. 139 *)  \beam( g#-2 { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 140 *)  \beam( g#-2 { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 } { g#-1, b#, d#0 }) \bar 
+   (* meas. 141 *)  \beam( c#-1 { g#, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# }) \bar 
+   (* meas. 142 *)  \beam( { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# }) \bar 
+   (* meas. 143 *)  \beam( b#-2 { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 144 *)  \beam( { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 145 *)  \beam( c#-1 { g#, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# }) \bar 
+   (* meas. 146 *)  \beam( { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# } { g#-1, c#0, e# }) \bar 
+   (* meas. 147 *)  \beam( d#-1 { g#, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 148 *)  \beam( { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 149 *)  \beam( e-1 { a, e0 } { a-1, e0 } { a-1, e0 } { a-1, e0 } { a-1, e0 }) \bar 
+   (* meas. 150 *)  \beam( { a-1, e0 } { a-1, e0 }) \beam( e-1 { a, e0 }) \beam( e-1 { a, e0 }) \bar 
+   (* meas. 151 *)  \beam( b-2 { e-1, b } { e, b } { e, b } { e, b } { e, b }) \bar 
+   (* meas. 152 *)  \beam( { e, b } { e, b }) \beam( b-2 { e-1, b }) \beam( b-2 { e-1, b }) \bar 
+   (* meas. 153 *)  \beam( d { a, d0 } { a-1, d0 } { a-1, d0 } { a-1, d0 } { a-1, d0 }) \bar 
+   (* meas. 154 *)  \beam( { a-1, d0 } { a-1, d0 }) \beam( d-1 { a, d0 }) \beam( d-1 { a, d0 }) \bar 
+   (* meas. 155 *)  \beam( a-2 { e-1, a }) \beam( a-2 { e-1, a }) \beam( { e, a } { e, a }) \bar 
+   (* meas. 156 *)  \beam( { e, a } { e, a }) \beam( a-2 { e-1, a }) \beam( a-2 { e-1, a }) \bar 
+   (* meas. 157 *)  \beam( g#-2 { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 158 *)  \beam( g#-2 { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# } { g#-1, d#0, f# }) \bar 
+   (* meas. 159 *)  \beam( c#-1 { g#, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \bar 
+   (* meas. 160 *)  \beam( { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e } { g#-1, c#0, e }) \repeatEnd 
+   (* meas. 161 *)  \beam( c#-1 { c#0, e } { c#, e } { c#, e } { c#, e } { c#, e }) \bar 
+   (* meas. 162 *)  \stemsDown \beam( { c#, e } { c#, e } { c#, e } { c#, e } { c#, e } { c#, e }) \bar 
+   (* meas. 163 *)  \intens<"pp"> \stemsUp \beam( d#-1 d#0 d# d# d# d#) \bar 
+   (* meas. 164 *)  \key<5> \stemsDown \beam( d# d# d# d# d# d#) \bar 
+   (* meas. 165 *)  \stemsUp \beam( d#-1 d#0 d# d# d# d#) \bar 
+   (* meas. 166 *)  \stemsDown \beam( d# d# d# d# d# d#) \bar 
+   (* meas. 167 *)  \key<-4> \stemsUp \stacc( e&-1/4) \stemsDown { \tieBegin e&0/2 \tieBegin, b& \tieBegin, d&1 } \bar 
+   (* meas. 168 *)  _*3/4 \bar 
+   (* meas. 169 *)  _ \bar 
+   (* meas. 170 *)  _ \bar 
+   (* meas. 171 *)  _ \bar 
+   (* meas. 172 *)  _ \bar 
+   (* meas. 173 *)  _ \bar 
+   (* meas. 174 *)  _ \bar 
+   (* meas. 175 *)  _ \bar 
+   (* meas. 176 *)  _ \bar 
+   (* meas. 177 *)  _ \bar 
+   (* meas. 178 *)  _ \bar 
+   (* meas. 179 *)  _ \bar 
+   (* meas. 180 *)  _ \bar 
+   (* meas. 181 *)  _ \bar 
+   (* meas. 182 *)  _ \bar 
+   (* meas. 183 *)  _ \bar 
+   (* meas. 184 *)  _ \bar 
+   (* meas. 185 *)  _ \bar 
+   (* meas. 186 *)  _ \bar 
+   (* meas. 187 *)  _ \bar 
+   (* meas. 188 *)  _ \bar 
+   (* meas. 189 *)  _ \bar 
+   (* meas. 190 *)  _ \bar 
+   (* meas. 191 *)  _ \bar 
+   (* meas. 192 *)  _ \bar 
+   (* meas. 193 *)  _ \bar 
+   (* meas. 194 *)  _ \bar 
+   (* meas. 195 *)  _ \bar 
+   (* meas. 196 *)  _ \bar 
+   (* meas. 197 *)  _ \bar 
+   (* meas. 198 *)  _ \bar 
+   (* meas. 199 *)  _ \bar 
+   (* meas. 200 *)  _ \bar 
+   (* meas. 201 *)  _ \bar 
+   (* meas. 202 *)  _ \bar 
+   (* meas. 203 *)  _ \bar 
+   (* meas. 204 *)  _ \bar 
+   (* meas. 205 *)  _ \bar 
+   (* meas. 206 *)  _ \bar 
+   (* meas. 207 *)  _ \bar 
+   (* meas. 208 *)  _ \bar 
+   (* meas. 209 *)  _ \bar 
+   (* meas. 210 *)  _ \bar 
+   (* meas. 211 *)  _ \bar 
+   (* meas. 212 *)  _ \bar 
+   (* meas. 213 *)  _ \bar 
+   (* meas. 214 *)  _ \bar 
+   (* meas. 215 *)  _ \bar 
+   (* meas. 216 *)  _ \bar 
+   (* meas. 217 *)  _/2 _/4 \bar 
+   (* meas. 218 *)  _/2 _/4 \bar 
+   (* meas. 219 *)  a&-1/2. \bar 
+   (* meas. 220 *)  d&0. \bar 
+   (* meas. 221 *)  e&. \bar 
+   (* meas. 222 *)  a&. \bar 
+   (* meas. 223 *)  a&-1. \bar 
+   (* meas. 224 *)  d&0. \bar 
+   (* meas. 225 *)  e&. \bar 
+   (* meas. 226 *)  a&. \bar 
+   (* meas. 227 *)  e&. \bar 
+   (* meas. 228 *)  a&. \bar 
+   (* meas. 229 *)  f. \bar 
+   (* meas. 230 *)  b&. \bar 
+   (* meas. 231 *)  f. \bar 
+   (* meas. 232 *)  b&. \bar 
+   (* meas. 233 *)  a&. \bar 
+   (* meas. 234 *)  d&1. \bar 
+   (* meas. 235 *)  a&0. \bar 
+   (* meas. 236 *)  d&1/4 _ _ \bar 
+   (* meas. 237 *)  _*3/4 \bar 
+   (* meas. 238 *)  _ \bar 
+   (* meas. 239 *)  \clef<"f4"> _ \bar 
+   (* meas. 240 *)  _ \bar 
+   (* meas. 241 *)  \stemsUp { g-1/4 \tieEnd, b& \tieEnd, d&0 \tieEnd, f& \tieEnd } { g-1/2, b&, d&0, f& } \bar 
+   (* meas. 242 *)  { g-1, b&, d&0, e& } { \tieBegin g-1/4 \tieBegin, b& \tieBegin, d&0 \tieBegin, e& } \bar 
+   (* meas. 243 *)  { g-1 \tieEnd, b& \tieEnd, d&0 \tieEnd, e& \tieEnd } { g-1/2, b&, d&0, e& } \bar 
+   (* meas. 244 *)  \slurBegin:1 a&-1 c0/4 \slurEnd:1 \bar 
+   (* meas. 245 *)  \stemsDown \slurBegin:2 d& \stemsUp b&-1 \stemsDown d&0 \slurEnd:2 \bar 
+   (* meas. 246 *)  \slurBegin:1 e&/2. \bar 
+   (* meas. 247 *)  \stemsUp e&-1. \slurEnd:1 \bar 
+   (* meas. 248 *)  \slurBegin:2 a&/2 c0/4 \bar 
+   (* meas. 249 *)  \stemsDown d& \stemsUp b&-1 \slurEnd:2 \stemsDown { \tieBegin d&0 \tieBegin, b& } \bar 
+   (* meas. 250 *)  \stemsUp b& \tieEnd a& \tieBegin a& \bar 
+   (* meas. 251 *)  \slurBegin:1 a& \tieEnd g \slurEnd:1 g \bar 
+   (* meas. 252 *)  \stacc( a&-1) \stemsDown { g&0/2, a&, c1 } \bar 
+   (* meas. 253 *)  \stacc( d&0/4 \tieEnd) { f/2, a&, d&1 } \bar 
+   (* meas. 254 *)  _*3/4 \bar 
+   (* meas. 255 *)  _ \bar 
+   (* meas. 256 *)  _ \bar 
+   (* meas. 257 *)  _ \bar 
+   (* meas. 258 *)  _/2 _/4 \bar 
+   (* meas. 259 *)  _/2 _/4 \bar 
+   (* meas. 260 *)  a&-1/2. \bar 
+   (* meas. 261 *)  d&0. \bar 
+   (* meas. 262 *)  e&. \bar 
+   (* meas. 263 *)  a&. \bar 
+   (* meas. 264 *)  a&-1. \bar 
+   (* meas. 265 *)  d&0. \bar 
+   (* meas. 266 *)  e&. \bar 
+   (* meas. 267 *)  a&. \bar 
+   (* meas. 268 *)  e&. \bar 
+   (* meas. 269 *)  a&. \bar 
+   (* meas. 270 *)  e&. \bar 
+   (* meas. 271 *)  a&/4 _ _ \bar 
+   (* meas. 272 *)  _/2 _/4 \bar 
+   (* meas. 273 *)  _*3/4 \bar 
+   (* meas. 274 *)  _ \bar 
+   (* meas. 275 *)  _ \bar 
+   (* meas. 276 *)  _ \bar 
+   (* meas. 277 *)  _ ]
+, [ \staff<2> 
+   (* meas. 1 *)  empty*3/4 \bar 
+   (* meas. 2 *)  empty \bar 
+   (* meas. 3 *)  empty \bar 
+   (* meas. 4 *)  empty \bar 
+   (* meas. 5 *)  empty \bar 
+   (* meas. 6 *)  empty \bar 
+   (* meas. 7 *)  empty \bar 
+   (* meas. 8 *)  empty \bar 
+   (* meas. 9 *)  empty \bar 
+   (* meas. 10 *)  empty \bar 
+   (* meas. 11 *)  empty \bar 
+   (* meas. 12 *)  empty \bar 
+   (* meas. 13 *)  empty \bar 
+   (* meas. 14 *)  empty \bar 
+   (* meas. 15 *)  empty \bar 
+   (* meas. 16 *)  empty \bar 
+   (* meas. 17 *)  empty \bar 
+   (* meas. 18 *)  empty \bar 
+   (* meas. 19 *)  empty \bar 
+   (* meas. 20 *)  empty \bar 
+   (* meas. 21 *)  empty \bar 
+   (* meas. 22 *)  empty \bar 
+   (* meas. 23 *)  empty \bar 
+   (* meas. 24 *)  empty \bar 
+   (* meas. 25 *)  empty \bar 
+   (* meas. 26 *)  empty \bar 
+   (* meas. 27 *)  empty \bar 
+   (* meas. 28 *)  empty \bar 
+   (* meas. 29 *)  empty \bar 
+   (* meas. 30 *)  empty \bar 
+   (* meas. 31 *)  empty \bar 
+   (* meas. 32 *)  empty \bar 
+   (* meas. 33 *)  empty \bar 
+   (* meas. 34 *)  empty \bar 
+   (* meas. 35 *)  empty \bar 
+   (* meas. 36 *)  empty \bar 
+   (* meas. 37 *)  empty \bar 
+   (* meas. 38 *)  empty \bar 
+   (* meas. 39 *)  empty \bar 
+   (* meas. 40 *)  empty \bar 
+   (* meas. 41 *)  empty \bar 
+   (* meas. 42 *)  empty \bar 
+   (* meas. 43 *)  empty \bar 
+   (* meas. 44 *)  empty \bar 
+   (* meas. 45 *)  empty \bar 
+   (* meas. 46 *)  empty \bar 
+   (* meas. 47 *)  empty \bar 
+   (* meas. 48 *)  empty \bar 
+   (* meas. 49 *)  empty \bar 
+   (* meas. 50 *)  empty \bar 
+   (* meas. 51 *)  empty \bar 
+   (* meas. 52 *)  empty \bar 
+   (* meas. 53 *)  empty \bar 
+   (* meas. 54 *)  empty \bar 
+   (* meas. 55 *)  empty \bar 
+   (* meas. 56 *)  empty \bar 
+   (* meas. 57 *)  empty \bar 
+   (* meas. 58 *)  empty \bar 
+   (* meas. 59 *)  empty \bar 
+   (* meas. 60 *)  empty \bar 
+   (* meas. 61 *)  empty \bar 
+   (* meas. 62 *)  empty \bar 
+   (* meas. 63 *)  empty \bar 
+   (* meas. 64 *)  empty \bar 
+   (* meas. 65 *)  empty \bar 
+   (* meas. 66 *)  empty \bar 
+   (* meas. 67 *)  empty \bar 
+   (* meas. 68 *)  empty \bar 
+   (* meas. 69 *)  empty \bar 
+   (* meas. 70 *)  empty \bar 
+   (* meas. 71 *)  empty \bar 
+   (* meas. 72 *)  empty \bar 
+   (* meas. 73 *)  empty \bar 
+   (* meas. 74 *)  empty \bar 
+   (* meas. 75 *)  empty \bar 
+   (* meas. 76 *)  empty \bar 
+   (* meas. 77 *)  empty \bar 
+   (* meas. 78 *)  \stemsDown e&0/2. \bar 
+   (* meas. 79 *)  e&. \bar 
+   (* meas. 80 *)  _/2 _/4 \bar 
+   (* meas. 81 *)  _/2 _/4 \bar 
+   (* meas. 82 *)  _/2 _/4 \bar 
+   (* meas. 83 *)  empty*3/4 \bar 
+   (* meas. 84 *)  empty \bar 
+   (* meas. 85 *)  empty \bar 
+   (* meas. 86 *)  empty \bar 
+   (* meas. 87 *)  empty \bar 
+   (* meas. 88 *)  empty \bar 
+   (* meas. 89 *)  empty \bar 
+   (* meas. 90 *)  empty \bar 
+   (* meas. 91 *)  empty \bar 
+   (* meas. 92 *)  empty \bar 
+   (* meas. 93 *)  empty \bar 
+   (* meas. 94 *)  empty \bar 
+   (* meas. 95 *)  empty \bar 
+   (* meas. 96 *)  empty \bar 
+   (* meas. 97 *)  empty \bar 
+   (* meas. 98 *)  empty \bar 
+   (* meas. 99 *)  empty \bar 
+   (* meas. 100 *)  empty \bar 
+   (* meas. 101 *)  empty \bar 
+   (* meas. 102 *)  empty \bar 
+   (* meas. 103 *)  a&-1/4 _ _ \bar 
+   (* meas. 104 *)  _*3/4 \bar 
+   (* meas. 105 *)  _/2 _/4 \bar 
+   (* meas. 106 *)  _/2 _/4 
+   (* meas. 107 *)  \repeatBegin empty*3/4 \bar 
+   (* meas. 108 *)  empty \bar 
+   (* meas. 109 *)  empty \bar 
+   (* meas. 110 *)  empty \bar 
+   (* meas. 111 *)  empty \bar 
+   (* meas. 112 *)  empty \bar 
+   (* meas. 113 *)  _/2 _/4 \bar 
+   (* meas. 114 *)  _/2 _/4 \bar 
+   (* meas. 115 *)  _/2 _/4 \bar 
+   (* meas. 116 *)  _ e e \bar 
+   (* meas. 117 *)  _/2 _/4 \bar 
+   (* meas. 118 *)  _ \accent( b-2) \accent( e-1) \bar 
+   (* meas. 119 *)  d#/2. \bar 
+   (* meas. 120 *)  d#. \bar 
+   (* meas. 121 *)  g#. \bar 
+   (* meas. 122 *)  g#. \repeatEnd 
+   (* meas. 123 *)  \tieBegin g#. \bar 
+   (* meas. 124 *)  g#/4 \tieEnd g# g# 
+   (* meas. 125 *)  \repeatBegin _/2 _/4 \bar 
+   (* meas. 126 *)  _/2 _/4 \bar 
+   (* meas. 127 *)  _/2 _/4 \bar 
+   (* meas. 128 *)  empty*3/4 \bar 
+   (* meas. 129 *)  empty \bar 
+   (* meas. 130 *)  empty \bar 
+   (* meas. 131 *)  empty \bar 
+   (* meas. 132 *)  empty \bar 
+   (* meas. 133 *)  empty \bar 
+   (* meas. 134 *)  empty \bar 
+   (* meas. 135 *)  empty \bar 
+   (* meas. 136 *)  empty \bar 
+   (* meas. 137 *)  empty \bar 
+   (* meas. 138 *)  empty \bar 
+   (* meas. 139 *)  empty \bar 
+   (* meas. 140 *)  empty \bar 
+   (* meas. 141 *)  empty \bar 
+   (* meas. 142 *)  empty \bar 
+   (* meas. 143 *)  empty \bar 
+   (* meas. 144 *)  empty \bar 
+   (* meas. 145 *)  empty \bar 
+   (* meas. 146 *)  empty \bar 
+   (* meas. 147 *)  empty \bar 
+   (* meas. 148 *)  empty \bar 
+   (* meas. 149 *)  _/2 _/4 \bar 
+   (* meas. 150 *)  _ e e \bar 
+   (* meas. 151 *)  _/2 _/4 \bar 
+   (* meas. 152 *)  _ b-2 b \bar 
+   (* meas. 153 *)  _/2 _/4 \bar 
+   (* meas. 154 *)  _ d-1 d \bar 
+   (* meas. 155 *)  a-2 _ _ \bar 
+   (* meas. 156 *)  _ a a \bar 
+   (* meas. 157 *)  _/2 _/4 \bar 
+   (* meas. 158 *)  _/2 _/4 \bar 
+   (* meas. 159 *)  empty*3/4 \bar 
+   (* meas. 160 *)  \repeatEnd empty 
+   (* meas. 161 *)  empty \bar 
+   (* meas. 162 *)  empty \bar 
+   (* meas. 163 *)  empty \bar 
+   (* meas. 164 *)  empty \bar 
+   (* meas. 165 *)  empty \bar 
+   (* meas. 166 *)  empty \bar 
+   (* meas. 167 *)  empty \bar 
+   (* meas. 168 *)  empty \bar 
+   (* meas. 169 *)  empty \bar 
+   (* meas. 170 *)  empty \bar 
+   (* meas. 171 *)  empty \bar 
+   (* meas. 172 *)  empty \bar 
+   (* meas. 173 *)  empty \bar 
+   (* meas. 174 *)  empty \bar 
+   (* meas. 175 *)  empty \bar 
+   (* meas. 176 *)  empty \bar 
+   (* meas. 177 *)  empty \bar 
+   (* meas. 178 *)  empty \bar 
+   (* meas. 179 *)  empty \bar 
+   (* meas. 180 *)  empty \bar 
+   (* meas. 181 *)  empty \bar 
+   (* meas. 182 *)  empty \bar 
+   (* meas. 183 *)  empty \bar 
+   (* meas. 184 *)  empty \bar 
+   (* meas. 185 *)  empty \bar 
+   (* meas. 186 *)  empty \bar 
+   (* meas. 187 *)  empty \bar 
+   (* meas. 188 *)  empty \bar 
+   (* meas. 189 *)  empty \bar 
+   (* meas. 190 *)  empty \bar 
+   (* meas. 191 *)  empty \bar 
+   (* meas. 192 *)  empty \bar 
+   (* meas. 193 *)  empty \bar 
+   (* meas. 194 *)  empty \bar 
+   (* meas. 195 *)  empty \bar 
+   (* meas. 196 *)  empty \bar 
+   (* meas. 197 *)  empty \bar 
+   (* meas. 198 *)  empty \bar 
+   (* meas. 199 *)  empty \bar 
+   (* meas. 200 *)  empty \bar 
+   (* meas. 201 *)  empty \bar 
+   (* meas. 202 *)  empty \bar 
+   (* meas. 203 *)  empty \bar 
+   (* meas. 204 *)  empty \bar 
+   (* meas. 205 *)  empty \bar 
+   (* meas. 206 *)  empty \bar 
+   (* meas. 207 *)  empty \bar 
+   (* meas. 208 *)  empty \bar 
+   (* meas. 209 *)  empty \bar 
+   (* meas. 210 *)  empty \bar 
+   (* meas. 211 *)  empty \bar 
+   (* meas. 212 *)  empty \bar 
+   (* meas. 213 *)  empty \bar 
+   (* meas. 214 *)  empty \bar 
+   (* meas. 215 *)  empty \bar 
+   (* meas. 216 *)  empty \bar 
+   (* meas. 217 *)  empty \bar 
+   (* meas. 218 *)  empty \bar 
+   (* meas. 219 *)  empty \bar 
+   (* meas. 220 *)  empty \bar 
+   (* meas. 221 *)  empty \bar 
+   (* meas. 222 *)  empty \bar 
+   (* meas. 223 *)  empty \bar 
+   (* meas. 224 *)  empty \bar 
+   (* meas. 225 *)  empty \bar 
+   (* meas. 226 *)  empty \bar 
+   (* meas. 227 *)  empty \bar 
+   (* meas. 228 *)  empty \bar 
+   (* meas. 229 *)  empty \bar 
+   (* meas. 230 *)  empty \bar 
+   (* meas. 231 *)  empty \bar 
+   (* meas. 232 *)  empty \bar 
+   (* meas. 233 *)  empty \bar 
+   (* meas. 234 *)  empty \bar 
+   (* meas. 235 *)  empty \bar 
+   (* meas. 236 *)  empty \bar 
+   (* meas. 237 *)  empty \bar 
+   (* meas. 238 *)  empty \bar 
+   (* meas. 239 *)  empty \bar 
+   (* meas. 240 *)  empty \bar 
+   (* meas. 241 *)  empty \bar 
+   (* meas. 242 *)  empty \bar 
+   (* meas. 243 *)  empty \bar 
+   (* meas. 244 *)  empty \bar 
+   (* meas. 245 *)  empty \bar 
+   (* meas. 246 *)  empty \bar 
+   (* meas. 247 *)  empty \bar 
+   (* meas. 248 *)  empty \bar 
+   (* meas. 249 *)  empty \bar 
+   (* meas. 250 *)  e&0/2. \bar 
+   (* meas. 251 *)  e&. \bar 
+   (* meas. 252 *)  _/2 _/4 \bar 
+   (* meas. 253 *)  _/2 _/4 \bar 
+   (* meas. 254 *)  empty*3/4 \bar 
+   (* meas. 255 *)  empty \bar 
+   (* meas. 256 *)  empty \bar 
+   (* meas. 257 *)  empty \bar 
+   (* meas. 258 *)  empty \bar 
+   (* meas. 259 *)  empty \bar 
+   (* meas. 260 *)  empty \bar 
+   (* meas. 261 *)  empty \bar 
+   (* meas. 262 *)  empty \bar 
+   (* meas. 263 *)  empty \bar 
+   (* meas. 264 *)  empty \bar 
+   (* meas. 265 *)  empty \bar 
+   (* meas. 266 *)  empty \bar 
+   (* meas. 267 *)  empty \bar 
+   (* meas. 268 *)  empty \bar 
+   (* meas. 269 *)  empty \bar 
+   (* meas. 270 *)  empty \bar 
+   (* meas. 271 *)  empty \bar 
+   (* meas. 272 *)  empty \bar 
+   (* meas. 273 *)  empty \bar 
+   (* meas. 274 *)  empty \bar 
+   (* meas. 275 *)  empty \bar 
+   (* meas. 276 *)  empty \bar 
+   (* meas. 277 *)  empty ]
+ }

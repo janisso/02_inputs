@@ -1,0 +1,57 @@
+(*
+  gmn code converted from '/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/demos/Polonaise_W.A._Mozart.xml'
+  using libmusicxml v.2.0.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \instr<"Piano", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<-1> \meter<"3/4", autoBarlines="off"> \clef<"g2"> \intens<"mp"> \tempo<tempo="[1/4] = 90"> \stemsDown \stacc( c2/8) f/4 \slurBegin:1 \beam( a/16 g) \slurEnd:1 \slurBegin:1 \beam( g f e f) \bar 
+   (* meas. 2 *)  \stacc( c/8) \slurEnd:1 \crescBegin \ten( g/4) \slurBegin:1 \beam( b&/16 a) \slurEnd:1 \slurBegin:1 \beam( a g g& g) \bar 
+   (* meas. 3 *)  \beam( \stacc( a/8) \slurEnd:1 \slurBegin:1 a/16 \crescEnd f) \intens<"mf"> \beam( \stacc( b&/8) \slurEnd:1 \slurBegin:1 b&/16 g) \beam( c3 a2 g f) \bar 
+   (* meas. 4 *)  \beam( e/8 \slurEnd:1 \dimBegin \slurBegin:1 e/16 c) \beam( \stacc( f/8) \slurEnd:1 \slurBegin:1 f/16 d) \beam( g e d \dimEnd c) \bar 
+   (* meas. 5 *)  \intens<"mp"> \stacc( c/8) \slurEnd:1 \ten( f/4) \slurBegin:1 \beam( a/16 g) \slurEnd:1 \slurBegin:1 \beam( g f e f) \bar 
+   (* meas. 6 *)  \stacc( c/8) \slurEnd:1 \crescBegin \ten( g/4) \slurBegin:1 \beam( b&/16 a) \slurEnd:1 \slurBegin:1 \beam( a g g& g) \bar 
+   (* meas. 7 *)  \beam( \stacc( a/8) \slurEnd:1 \slurBegin:1 a/16 f) \beam( \stacc( b&/8) \slurEnd:1 b&/16 g) \beam( \stacc( c3/8) \crescEnd \intens<"f"> \stacc( f2)) \bar 
+   (* meas. 8 *)  \slurBegin:1 \beam( a/16 g f e) \slurEnd:1 \dimBegin \slurBegin:1 e/4 f \slurEnd:1 \dimEnd \repeatEnd 
+   (* meas. 9 *)  \repeatBegin \intens<"p"> \slurBegin:1 \beam( g/8. a/32 b&) \beam( \stacc( c3/8) \slurEnd:1 \stacc( f2)) \slurBegin:1 \beam( g/16 f e f) \slurEnd:1 \bar 
+   (* meas. 10 *)  \slurBegin:2 \beam( a g \slurEnd:2 \slurBegin:2 g f) \slurEnd:2 \slurBegin:2 \beam( f e \slurEnd:2 \slurBegin:2 e d) \slurEnd:2 \beam( \stacc( e/8) \stacc( c)) \bar 
+   (* meas. 11 *)  \intens<"pp"> \slurBegin:1 \beam( g/8. a/32 b&) \beam( \stacc( c3/8) \slurEnd:1 \stacc( f2)) \slurBegin:1 \beam( g/16 f e f) \slurEnd:1 \bar 
+   (* meas. 12 *)  \dimBegin \slurBegin:1 { f/2, a } \dimEnd \crescBegin { e/8, g } \slurEnd:1 _ \crescEnd \bar 
+   (* meas. 13 *)  \intens<"mf"> \stacc( c) \ten( f/4) \slurBegin:2 \beam( a/16 g) \slurEnd:2 \slurBegin:2 \beam( g f e f) \bar 
+   (* meas. 14 *)  \stacc( c/8) \slurEnd:2 \crescBegin \ten( g/4) \slurBegin:1 \beam( b&/16 a) \slurEnd:1 \slurBegin:1 \beam( a g g& g) \bar 
+   (* meas. 15 *)  \beam( a/8 \slurEnd:1 \slurBegin:1 a/16 f) \beam( \stacc( b&/8) \slurEnd:1 \slurBegin:1 b&/16 g) \beam( \stacc( c3/8) \slurEnd:1 \crescEnd \intens<"f"> \stacc( f2)) \bar 
+   (* meas. 16 *)  \slurBegin:1 \beam( a/16 g f e) \slurEnd:1 \dimBegin \slurBegin:1 e/4 \dimEnd f \slurEnd:1 \repeatEnd ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<-1> \meter<"3/4", autoBarlines="off"> \clef<"f4"> \stemsDown \beam( { f0/8, a } c1) \beam( { f0, a } c1) \beam( { f0, a } c1) \bar 
+   (* meas. 2 *)  \beam( { e0, b& } c1) \beam( { e0, b& } c1) \beam( { e0, b& } c1) \bar 
+   (* meas. 3 *)  \beam( { f0, a } c1) \beam( { f0, g } c1) \beam( { f0, a } c1) \bar 
+   (* meas. 4 *)  \beam( \ten( c0) c1) \beam( \ten( d0) c1) \beam( \ten( e0) { b&, c1 }) \bar 
+   (* meas. 5 *)  \beam( { f0, a } c1) \beam( { f0, a } c1) \beam( { f0, a } c1) \bar 
+   (* meas. 6 *)  \beam( { e0, b& } c1) \beam( { e0, b& } c1) \beam( { e0, b& } c1) \bar 
+   (* meas. 7 *)  \beam( { f0, a } c1) \beam( g0 c1) \beam( a0 \stacc( { d, d1 })) \bar 
+   (* meas. 8 *)  \beam( \stacc( { b&-1, b&0 }) \stacc( { c, b& })) \slurBegin:1 { c/4, g, b& } { f, a } \slurEnd:1 \repeatEnd 
+   (* meas. 9 *)  \repeatBegin \stemsUp \slurBegin:1 b& a/8 \slurEnd:1 _ \slurBegin:1 d1/4 \bar 
+   (* meas. 10 *)  \stemsDown { c, e } \slurEnd:1 _ _ \bar 
+   (* meas. 11 *)  \stemsUp \slurBegin:1 b&0 a/8 \slurEnd:1 _ { d/4, c&1 } \bar 
+   (* meas. 12 *)  \stemsDown \beam( c0/8 c1) \beam( c0 c1) \beam( c0/16 \slurBegin:1 c1 b&0 g) \bar 
+   (* meas. 13 *)  \beam( { f/8, a } \slurEnd:1 c1) \beam( { f0, a } c1) \beam( { f0, a } c1) \bar 
+   (* meas. 14 *)  \beam( { e0, b& } c1) \beam( { e0, b& } c1) \beam( { e0, b& } c1) \bar 
+   (* meas. 15 *)  \beam( { f0, a } c1) \beam( g0 c1) \beam( a0 \stacc( { d, d1 })) \bar 
+   (* meas. 16 *)  \beam( \stacc( { b&-1, b&0 }) \stacc( { c, b& })) \slurBegin:1 { c/4, g, b& } { f, a } \slurEnd:1 \repeatEnd ]
+, [ \staff<2> 
+   (* meas. 1 *)  empty*3/4 \bar 
+   (* meas. 2 *)  empty \bar 
+   (* meas. 3 *)  empty \bar 
+   (* meas. 4 *)  empty \bar 
+   (* meas. 5 *)  empty \bar 
+   (* meas. 6 *)  empty \bar 
+   (* meas. 7 *)  empty \bar 
+   (* meas. 8 *)  \repeatEnd empty 
+   (* meas. 9 *)  \repeatBegin \stemsDown c/2 _/4 \bar 
+   (* meas. 10 *)  empty*3/4 \bar 
+   (* meas. 11 *)  c/2 _/4 \bar 
+   (* meas. 12 *)  empty*3/4 \bar 
+   (* meas. 13 *)  empty \bar 
+   (* meas. 14 *)  empty \bar 
+   (* meas. 15 *)  empty \bar 
+   (* meas. 16 *)  \repeatEnd empty ]
+ }

@@ -1,0 +1,5 @@
+/ITL/scene/score set gmnf "moonlight.gmn";
+/ITL/scene/score scale 0.25;
+/ITL/scene/cursor set rect 0.02 0.8;
+/ITL/scene/cursor color 0 0 255;
+/ITL/tutorial/sync cursor score;

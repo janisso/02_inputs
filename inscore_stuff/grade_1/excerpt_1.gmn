@@ -1,0 +1,24 @@
+(*
+  gmn code converted from '/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/grade_1/excerpt_1.xml'
+  using libmusicxml v.2.0.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \instr<"Piano", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<-1> \meter<"3/4", autoBarlines="off"> \clef<"g2"> \intens<"mp"> \stemsUp f/2 \beam( g/8 f) \bar 
+   (* meas. 2 *)  e/4 d a \bar 
+   (* meas. 3 *)  e/2 f/4 \bar 
+   (* meas. 4 *)  g/2. \bar 
+   (* meas. 5 *)  _*3/4 \bar 
+   (* meas. 6 *)  _ \bar 
+   (* meas. 7 *)  _ \bar 
+   (* meas. 8 *)  _ ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<-1> \meter<"3/4", autoBarlines="off"> \clef<"f4"> _*3/4 \bar 
+   (* meas. 2 *)  _ \bar 
+   (* meas. 3 *)  _ \bar 
+   (* meas. 4 *)  _ \bar 
+   (* meas. 5 *)  \intens<"mf"> \stemsDown g0/4 g/4. f/8 \bar 
+   (* meas. 6 *)  e/2. \bar 
+   (* meas. 7 *)  \intens<"mp"> a/4 \dimBegin g e \dimEnd \bar 
+   (* meas. 8 *)  \intens<"p"> d/2. ]
+ }

@@ -1,0 +1,4 @@
+/ITL/scene/* del;
+
+/ITL/scene/demoText set txt "Thank you! It's time to practice it for real!";
+/ITL/scene/demoText fontSize 32;
