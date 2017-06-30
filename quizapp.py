@@ -402,9 +402,9 @@ if __name__ == '__main__':
         #     report = report + " you have not read the documentation\n"
         #report = report + " you are "+groupB.getValue()+"\n"
         #report = report + " you need "+rb2.getValue()+"\n"
-        #textarea.appenddText(" password :  \n"+ pas.getText()+"\n"+report+"\n" + " Slider value " + str(sli.getValue())+" SpinBox value  " + str(spin.getValue())+" \n")
-        #textarea.appenddText(" text submitted :  \n"+ str(len(uidT.getText()))+"\n"+report+"\n" + " Slider value " + str(sli.getValue())+"\n")
-    #textarea.appenddText(sli.getValue())
+        #textarea.appendText(" password :  \n"+ pas.getText()+"\n"+report+"\n" + " Slider value " + str(sli.getValue())+" SpinBox value  " + str(spin.getValue())+" \n")
+        #textarea.appendText(" text submitted :  \n"+ str(len(uidT.getText()))+"\n"+report+"\n" + " Slider value " + str(sli.getValue())+"\n")
+    #textarea.appendText(sli.getValue())
         return True
     
     # def AboutButtonClick(event=None):
