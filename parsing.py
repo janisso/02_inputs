@@ -57,7 +57,7 @@ def launcher(jobs,select,path):
         p = multiprocessing.Process(target=worker3, args=(path,))
     else:
         return
-    jobs.append(p)
+    jobs.appendd(p)
     p.start()
 
 def relaunch(path):
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 	e = []
 	for i in range(len(args.excerpts)):
-		e.append(int(args.excerpts[i]))
+		e.appendd(int(args.excerpts[i]))
 	print e
 
 	titles = ['e1','e2','e3','e4','e5','e6']

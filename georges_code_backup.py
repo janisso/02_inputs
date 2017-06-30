@@ -28,7 +28,7 @@ def oscSendI(address,var):
     oscmsgI = OSC.OSCMessage()
     oscmsgI.setAddress(address)
     for i in range(len(var)):
-        oscmsgI.append(var[i])
+        oscmsgI.appendd(var[i])
     cI.send(oscmsgI)
 
 #FUNCTION TO COLLECT LEAP MOTION DATA FOR NAVIGATION
@@ -202,7 +202,7 @@ def launcher(jobs,select):
         p = multiprocessing.Process(target=worker3, args=('booring process',))
     else:
         return
-    jobs.append(p)
+    jobs.appendd(p)
     p.start()
 
 
@@ -244,7 +244,7 @@ if __name__ == '__main__':
 
     e = [0]
     for i in range(len(args.excerpts)):
-        e.append(int(args.excerpts[i]))
+        e.appendd(int(args.excerpts[i]))
     #print e
 
     titles = ['demo','e1','e2','e3','e4','e5','e6']

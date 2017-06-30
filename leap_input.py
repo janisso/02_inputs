@@ -21,17 +21,17 @@ def oscSendI(unravelTime,stop_all):
     cI.connect(('localhost', 7000))   # INSCORE
     oscmsgI = OSC.OSCMessage()
     oscmsgI.setAddress('/ITL/scene/sync')
-    oscmsgI.append('cursor')
-    oscmsgI.append('score')
+    oscmsgI.appendd('cursor')
+    oscmsgI.appendd('score')
     cI.send(oscmsgI)
     while True:
         #msg2send = oscQ.get()
         oscmsgI = OSC.OSCMessage()
         oscmsgI.setAddress('/ITL/scene/cursor')
-        oscmsgI.append('date')
-        oscmsgI.append(int(unravelTime.value*4))
-        oscmsgI.append(16)
-        #oscmsg.append(str(msg2send)+' '+str(16))
+        oscmsgI.appendd('date')
+        oscmsgI.appendd(int(unravelTime.value*4))
+        oscmsgI.appendd(16)
+        #oscmsg.appendd(str(msg2send)+' '+str(16))
         cI.send(oscmsgI)
         time.sleep(0.01)
         if stop_all.value == 1:
@@ -69,7 +69,7 @@ data = np.zeros(window_length)
 #CIRCULAR BUFFER TO COLLECT THE DATA
 cbReg = CircularBuffer(size=window_length)
 for i in range(window_length):
-    cbReg.append(0)
+    cbReg.appendd(0)
 
 #SET UP FILTER
 f = 0.001
@@ -78,7 +78,7 @@ coeffs = signal.firwin(window_length, f)
 #SET UP CIRCULAR BUFFER FOR FIR FILTER
 cb = CircularBuffer(size=window_length)
 for i in range(window_length):
-    cb.append(0)
+    cb.appendd(0)
 
 #REGRESSION CLASS
 class REG():
@@ -190,7 +190,7 @@ def runLeap(q,vel,u_phase,unravelTime,stop_all,savePath):
     hello = 0
     #reg_hop = 0
     while True:
-        cb.append(vel.value)
+        cb.appendd(vel.value)
         #print vel.value
         #GETTING SMOOTHED VALUE
         avg_vel = sum(cb*coeffs)
@@ -241,11 +241,11 @@ def runLeap(q,vel,u_phase,unravelTime,stop_all,savePath):
         prev_accS = avg_acc
         
         #FILLING UP CBREG
-        #cbTam.append(array_time)
-        #cbReg.append(vel.value)
+        #cbTam.appendd(array_time)
+        #cbReg.appendd(vel.value)
         #f.write('time,palm_vel,avg_vel,avg_vel_s,avg_acc,avg_acc_s,sparse_phase,window_time\n')
         f.write("%f, %f, %f, %f,%f, %f, %f, %f\n"%(time.time(),vel.value,avg_vel,avg_velS,avg_acc,avg_accS,u_phase.value,window_time))
-        cbReg.append(vel.value)
+        cbReg.appendd(vel.value)
         sent_to = 0
         if window_time==50:
             window_time=0
@@ -342,8 +342,8 @@ def playMIDI(unravelTime,amp,stop_all,which_one,savePath):
         all_time += msg.time
         if not msg.is_meta:
             all_time+=msg.time
-            all_messages.append(msg)
-            s_times.append([msg_count,all_time])
+            all_messages.appendd(msg)
+            s_times.appendd([msg_count,all_time])
             msg_count += 1
     s_times = np.array(s_times)
     yo = deepcopy(s_times)
