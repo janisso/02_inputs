@@ -647,7 +647,7 @@ if __name__ == '__main__':
 
     #Q21
     y_pos += 50
-    q1T = TextArea("21. When practicing with BB, I play more expressively after using BB",1020,y_pos,450,40)
+    q1T = TextArea("21. When practicing with BB, I play more expressively after\n using BB",1020,y_pos,450,40)
     Frame.add(q1T)
     y_pos += 45
     q21S=Slider(1,5,1030,y_pos,420,40)
@@ -656,7 +656,7 @@ if __name__ == '__main__':
 
     #Q22
     y_pos += 50
-    q2T = TextArea("22. Having experimented with tempo variation using BB made me more aware of tempo variation in other pieces",1020,y_pos,450,40)
+    q2T = TextArea("22. Having experimented with tempo variation using BB made me\n more aware of tempo variation in other pieces",1020,y_pos,450,40)
     Frame.add(q2T)
     y_pos += 45
     q22S=Slider(1,5,1030,y_pos,420,40)
@@ -665,7 +665,7 @@ if __name__ == '__main__':
 
     #Q23
     y_pos += 50
-    q3T = TextArea("23. Having experimented with loudness variation using BB made me more aware of loudness variation in other pieces",1020,y_pos,450,40)
+    q3T = TextArea("23. Having experimented with loudness variation using BB made\n me more aware of loudness variation in other pieces",1020,y_pos,450,40)
     Frame.add(q3T)
     y_pos += 45
     q23S=Slider(1,5,1030,y_pos,420,40)
@@ -674,7 +674,7 @@ if __name__ == '__main__':
     
     #Q24
     y_pos += 50
-    q4T = TextArea("24. BB helped me learn the piece Having experimented with phrasing using BB made me more aware of phrasing in other pieces",1020,y_pos,450,40)
+    q4T = TextArea("24. BB helped me learn the piece Having experimented with\n phrasing using BB made me more aware of phrasing in other pieces",1020,y_pos,450,40)
     Frame.add(q4T)
     y_pos += 45
     q24S=Slider(1,5,1030,y_pos,420,40)
@@ -683,7 +683,7 @@ if __name__ == '__main__':
 
     #Q25
     y_pos += 50
-    q5T = TextArea("25. After having practiced with BB, the experience helped me learn other pieces (without BB) with more ease",1020,y_pos,450,40)
+    q5T = TextArea("25. After having practiced with BB, the experience helped me\n learn other pieces (without BB) with more ease",1020,y_pos,450,40)
     Frame.add(q5T)
     y_pos += 45
     q25S=Slider(1,5,1030,y_pos,420,40)
@@ -692,7 +692,7 @@ if __name__ == '__main__':
 
     #Q26
     y_pos += 50
-    q6T = TextArea("26. After having practiced with BB, the experience helped me play other pieces (without BB) more expressively",1020,y_pos,450,40)
+    q6T = TextArea("26. After having practiced with BB, the experience helped me\n play other pieces (without BB) more expressively",1020,y_pos,450,40)
     Frame.add(q6T)
     y_pos += 45
     q26S=Slider(1,5,1030,y_pos,420,40)
@@ -755,7 +755,7 @@ if __name__ == '__main__':
     #textarea = TextArea("\n Click submit button to see output here!!",250,100,250,200)
     #Frame.add(textarea)
     #Creating Buttons
-    submitBtn = Button("Submit",840,875,120,30)
+    submitBtn = Button("Submit",690,875,120,30)
     #aboutBtn = Button("About",260,230,120,30)
     #Callback methods on buttons click
     submitBtn.clickListener(SubmitButtonClick)
