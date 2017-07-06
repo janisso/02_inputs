@@ -225,7 +225,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-u','--userid',help='Enter user ID')
     parser.add_argument('-g','--group',help='Select treatment group 1 or 2')
-    parser.add_argument('-e','--excerpts',help='Enter three excerpts that will be practised')
+    parser.add_argument('-e','--excerpts',help='Enter two excerpts that will be practised')
+    #parser.add_argument('-l','--level',help='Enter level of the pianist (1-8 ABRSM grades)')
     args = parser.parse_args()
 
     #print args.group
@@ -312,7 +313,7 @@ if __name__ == '__main__':
         if retry.value == 1:
             break
 
-    for j in range(1,4):
+    for j in range(1,3):
         #BEGIN PRACTICE
         oscSendI('/ITL/scene',['load','/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/begin_practice.inscore'])
         oscSendI('/ITL/scene/demoText',['set','txt', 'Begin Practicing '+str(e[j])])

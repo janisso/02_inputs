@@ -1,7 +1,7 @@
 /ITL/scene/* del;
 
 /ITL get musicxml-version;
-/ITL/scene/score set musicxmlf "excerpt_3.xml";
+/ITL/scene/score set musicxmlf "03.xml";
 /ITL/scene/score scale 0.5;
 /ITL/scene/cursor set rect 0.02 0.8;
 /ITL/scene/cursor color 0 0 255;
