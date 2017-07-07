@@ -329,7 +329,7 @@ def playMIDI(unravelTime,amp,stop_all,which_one,savePath,g):
     #mid = MidiFile('/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/polonaise.mid')
     #mid = MidiFile('/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/moonlight.mid')
     #mid = MidiFile('/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/lalaland.mid')
-    port = mido.open_output(mido.get_output_names()[0])
+    port = mido.open_output(mido.get_output_names()[1])
     all_time = 0
     msg_count = 0
     all_messages = []

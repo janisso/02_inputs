@@ -268,7 +268,7 @@ if __name__ == '__main__':
     p0 = multiprocessing.Process(target=demoMenu,args=())
     p0.start()
     p0.join()
-    os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/demo.inscore')
+    os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/demo.inscore')
     os.system('open -a Terminal')
     for i in range(3,0,-1):
         oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
@@ -302,7 +302,7 @@ if __name__ == '__main__':
             saveHere = savePath+'/0_'+str(titles[e[0]])+'/'+str(count)
             if not os.path.exists(saveHere):
                 os.makedirs(saveHere)
-            os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/demo.inscore')
+            os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/demo.inscore')
             for i in range(3,0,-1):
                 oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
                 oscSendI('/ITL/scene/demoText1',['fontSize', 64])
