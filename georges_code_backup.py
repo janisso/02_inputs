@@ -22,13 +22,12 @@ import leap_input
 
 import argparse
 
-
 #FUNCTION TO SEND OSC MESSAGES TO INSCORE
 def oscSendI(address,var):
     oscmsgI = OSC.OSCMessage()
     oscmsgI.setAddress(address)
     for i in range(len(var)):
-        oscmsgI.appendd(var[i])
+        oscmsgI.append(var[i])
     cI.send(oscmsgI)
 
 #FUNCTION TO COLLECT LEAP MOTION DATA FOR NAVIGATION
@@ -202,7 +201,7 @@ def launcher(jobs,select):
         p = multiprocessing.Process(target=worker3, args=('booring process',))
     else:
         return
-    jobs.appendd(p)
+    jobs.append(p)
     p.start()
 
 
@@ -224,20 +223,25 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-u','--userid',help='Enter user ID')
-    parser.add_argument('-g','--group',help='Select treatment group 1 or 2')
+    parser.add_argument('-g','--grade',help='Enter level of the pianist (1-8 ABRSM grades)')
     parser.add_argument('-e','--excerpts',help='Enter two excerpts that will be practised')
     #parser.add_argument('-l','--level',help='Enter level of the pianist (1-8 ABRSM grades)')
     args = parser.parse_args()
 
     #print args.group
-    g = int(args.group)
-    if g == 1:
-        savePath = path+'G1/'+args.userid
-    elif g == 2:
-        savePath = path+'G2/'+args.userid
-    else:
-        print 'Select treatment group 1 or 2'
+    g = int(args.grade)
+    # if g == 1:
+    #     savePath = path+'G1/'+args.userid
+    # elif g == 2:
+    #     savePath = path+'G2/'+args.userid
+    if g > 8:
+        print 'Enter level of the pianist (1-8 ABRSM grades)'
         sys.exit(-1)
+    elif g == 0:
+        print 'Enter level of the pianist (1-8 ABRSM grades)'
+        sys.exit(-1)
+    else:
+        savePath = path+'G'+str(g)+'/'+args.userid
 
     # print savePath
     if not os.path.exists(savePath):
@@ -245,7 +249,7 @@ if __name__ == '__main__':
 
     e = [0]
     for i in range(len(args.excerpts)):
-        e.appendd(int(args.excerpts[i]))
+        e.append(int(args.excerpts[i]))
     #print e
 
     titles = ['demo','e1','e2','e3','e4','e5','e6']
@@ -264,7 +268,7 @@ if __name__ == '__main__':
     p0 = multiprocessing.Process(target=demoMenu,args=())
     p0.start()
     p0.join()
-    os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/demo.inscore')
+    os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/demo.inscore')
     os.system('open -a Terminal')
     for i in range(3,0,-1):
         oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
@@ -280,7 +284,7 @@ if __name__ == '__main__':
         os.makedirs(saveHere)
     #print count
     os.system('open -a Terminal')
-    leap_input.doIt(saveHere,e[0])
+    leap_input.doIt(saveHere,e[0],g)
     #relaunch()
     
     #FINISH / RETRY WINDOW
@@ -298,7 +302,7 @@ if __name__ == '__main__':
             saveHere = savePath+'/0_'+str(titles[e[0]])+'/'+str(count)
             if not os.path.exists(saveHere):
                 os.makedirs(saveHere)
-            os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/demo.inscore')
+            os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/demo.inscore')
             for i in range(3,0,-1):
                 oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
                 oscSendI('/ITL/scene/demoText1',['fontSize', 64])
@@ -307,13 +311,13 @@ if __name__ == '__main__':
                 sleep(1)
             oscSendI('/ITL/scene/demoText1',['alpha',0])
             os.system('open -a Terminal')
-            leap_input.doIt(saveHere,e[0])
+            leap_input.doIt(saveHere,e[0],g)
             os.system('open -a Terminal')
             #relaunch()
         if retry.value == 1:
             break
 
-    for j in range(1,3):
+    for j in range(1,7):
         #BEGIN PRACTICE
         oscSendI('/ITL/scene',['load','/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/begin_practice.inscore'])
         oscSendI('/ITL/scene/demoText',['set','txt', 'Begin Practicing '+str(e[j])])
@@ -324,7 +328,7 @@ if __name__ == '__main__':
         p0 = multiprocessing.Process(target=demoMenu,args=())
         p0.start()
         p0.join()
-        os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/excerpt_'+str(e[j])+'_xml.inscore')
+        os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/0'+str(e[j])+'.inscore')
         os.system('open -a Terminal')
         for i in range(3,0,-1):
             oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
@@ -336,7 +340,7 @@ if __name__ == '__main__':
         if not os.path.exists(saveHere):
             os.makedirs(saveHere)
         os.system('open -a Terminal')
-        leap_input.doIt(saveHere,e[j])
+        leap_input.doIt(saveHere,e[j],g)
         os.system('open -a Terminal')
 
         #FINISH / RETRY WINDOW
@@ -352,7 +356,7 @@ if __name__ == '__main__':
                 saveHere = savePath+'/'+str(j)+'_'+str(titles[e[j]])+'/'+str(count)
                 if not os.path.exists(saveHere):
                     os.makedirs(saveHere)
-                os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/excerpt_'+str(e[j])+'_xml.inscore')
+                os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/0'+str(e[j])+'.inscore')
                 for i in range(3,0,-1):
                     oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
                     oscSendI('/ITL/scene/demoText1',['fontSize', 64])
@@ -361,7 +365,7 @@ if __name__ == '__main__':
                     sleep(1)
                 oscSendI('/ITL/scene/demoText1',['alpha',0])
                 os.system('open -a Terminal')
-                leap_input.doIt(saveHere,e[j])
+                leap_input.doIt(saveHere,e[j],g)
                 os.system('open -a Terminal')
             if retry.value == 1:
                 break

@@ -21,17 +21,17 @@ def oscSendI(unravelTime,stop_all):
     cI.connect(('localhost', 7000))   # INSCORE
     oscmsgI = OSC.OSCMessage()
     oscmsgI.setAddress('/ITL/scene/sync')
-    oscmsgI.appendd('cursor')
-    oscmsgI.appendd('score')
+    oscmsgI.append('cursor')
+    oscmsgI.append('score')
     cI.send(oscmsgI)
     while True:
         #msg2send = oscQ.get()
         oscmsgI = OSC.OSCMessage()
         oscmsgI.setAddress('/ITL/scene/cursor')
-        oscmsgI.appendd('date')
-        oscmsgI.appendd(int(unravelTime.value*4))
-        oscmsgI.appendd(16)
-        #oscmsg.appendd(str(msg2send)+' '+str(16))
+        oscmsgI.append('date')
+        oscmsgI.append(int(unravelTime.value*4))
+        oscmsgI.append(16)
+        #oscmsg.append(str(msg2send)+' '+str(16))
         cI.send(oscmsgI)
         time.sleep(0.01)
         if stop_all.value == 1:
@@ -69,7 +69,7 @@ data = np.zeros(window_length)
 #CIRCULAR BUFFER TO COLLECT THE DATA
 cbReg = CircularBuffer(size=window_length)
 for i in range(window_length):
-    cbReg.appendd(0)
+    cbReg.append(0)
 
 #SET UP FILTER
 f = 0.001
@@ -78,7 +78,7 @@ coeffs = signal.firwin(window_length, f)
 #SET UP CIRCULAR BUFFER FOR FIR FILTER
 cb = CircularBuffer(size=window_length)
 for i in range(window_length):
-    cb.appendd(0)
+    cb.append(0)
 
 #REGRESSION CLASS
 class REG():
@@ -190,7 +190,7 @@ def runLeap(q,vel,u_phase,unravelTime,stop_all,savePath):
     hello = 0
     #reg_hop = 0
     while True:
-        cb.appendd(vel.value)
+        cb.append(vel.value)
         #print vel.value
         #GETTING SMOOTHED VALUE
         avg_vel = sum(cb*coeffs)
@@ -241,11 +241,11 @@ def runLeap(q,vel,u_phase,unravelTime,stop_all,savePath):
         prev_accS = avg_acc
         
         #FILLING UP CBREG
-        #cbTam.appendd(array_time)
-        #cbReg.appendd(vel.value)
+        #cbTam.append(array_time)
+        #cbReg.append(vel.value)
         #f.write('time,palm_vel,avg_vel,avg_vel_s,avg_acc,avg_acc_s,sparse_phase,window_time\n')
         f.write("%f, %f, %f, %f,%f, %f, %f, %f\n"%(time.time(),vel.value,avg_vel,avg_velS,avg_acc,avg_accS,u_phase.value,window_time))
-        cbReg.appendd(vel.value)
+        cbReg.append(vel.value)
         sent_to = 0
         if window_time==50:
             window_time=0
@@ -313,12 +313,12 @@ def printPhase(q1,vel,unravelTime,u_phase,playbackFlag,stop_all,savePath):
         if stop_all.value == 1:
             break
 
-def playMIDI(unravelTime,amp,stop_all,which_one,savePath):
+def playMIDI(unravelTime,amp,stop_all,which_one,savePath,g):
 
-    path = '/Users/mb/Desktop/Janis.So/06_qmul/BB/02_inputs/inscore_stuff/main_menu/'
+    path = '/Users/mb/Desktop/Janis.So/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/'
     f = open(savePath+'/play_midi.csv','w+')
     f.write('time,phase,midi_note,midi_vel\n')
-    mids = ['demo','1','2','3','4','5','6']
+    mids = ['demo','01','02','03','04','05','06']
     #times = [45]
 
     mid = MidiFile(path+mids[which_one]+'.mid')
@@ -342,8 +342,8 @@ def playMIDI(unravelTime,amp,stop_all,which_one,savePath):
         all_time += msg.time
         if not msg.is_meta:
             all_time+=msg.time
-            all_messages.appendd(msg)
-            s_times.appendd([msg_count,all_time])
+            all_messages.append(msg)
+            s_times.append([msg_count,all_time])
             msg_count += 1
     s_times = np.array(s_times)
     yo = deepcopy(s_times)
@@ -398,7 +398,7 @@ def playMIDI(unravelTime,amp,stop_all,which_one,savePath):
             print "Printing 2 "+str(x)
             sleep(0.1)'''
 
-def doIt(savePath,which_one):
+def doIt(savePath,which_one,g):
     r = REG()
     q = multiprocessing.Queue()
     q1 = multiprocessing.Queue()
@@ -410,7 +410,7 @@ def doIt(savePath,which_one):
     unravelTime = multiprocessing.Value('d',0.0)
     stop_all = multiprocessing.Value('i', 0)
     lock=multiprocessing.Lock()
-    p0 = multiprocessing.Process(target=playMIDI,args=(unravelTime,amp,stop_all,which_one,savePath))
+    p0 = multiprocessing.Process(target=playMIDI,args=(unravelTime,amp,stop_all,which_one,savePath,g))
     p1 = multiprocessing.Process(target=runLeap,args=(q,vel,u_phase,unravelTime,stop_all,savePath))
     p2 = multiprocessing.Process(target=r.doReg,args=(q,u_phase,q1,amp,stop_all,savePath))
     p3 = multiprocessing.Process(target=getSamples,args=(vel,playbackFlag,stop_all,savePath))
