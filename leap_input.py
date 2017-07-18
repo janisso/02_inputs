@@ -12,8 +12,6 @@ from copy import deepcopy
 import mido
 from mido import MidiFile
 
-
-
 #SENDING OSC MESSAGES
 def oscSendI(unravelTime,stop_all):
     #SETTING UP OSC CLIENT FOR INSCORE
@@ -138,7 +136,7 @@ class dummy():
     def do_array(time,data):
         self.x = sum(time)
         self.y = sum(data)
-        print self.x, self.y
+        #print self.x, self.y
 
 def getSamples(vel,playbackFlag,stop_all,savePath):
     f = open(savePath+'/get_samples.csv','w+')
@@ -264,10 +262,9 @@ def runLeap(q,vel,u_phase,unravelTime,stop_all,savePath):
             f.close
             break
 
-
-def printPhase(q1,vel,unravelTime,u_phase,playbackFlag,stop_all,savePath):
+def printPhase(q1,vel,unravelTime,u_phase,playbackFlag,stop_all,savePath,q2):
     f = open(savePath+'/print_phase.csv','w+')
-    f.write('time,phase_from_reg,plbck_pos,corrected_plbck_pos\n')
+    f.write('time,phase_from_reg,plbck_pos\n')
     #header_text = ['Time in S','Phase from Regression','Difference in Beats','Beats sent to Playback']
     preffP = 0
     curr_time = time.time()
@@ -286,19 +283,23 @@ def printPhase(q1,vel,unravelTime,u_phase,playbackFlag,stop_all,savePath):
             #print fP
             curr_time = time.time()
             curr_date = fP/(2*np.pi)
+            #prev_time, curr_time, curr_date, prev_date
             time_diff = curr_time - prev_time
             date_diff = curr_date - prev_date
+            if curr_date < prev_date:
+                curr_date = prev_date
+            q2.put([curr_time,prev_time,curr_date,prev_date])
             #print playbackFlag.value
-            if playbackFlag.value==1:
-                temp_date += date_diff
-            if temp_date > u_phase.value+0.25:
-                temp_date = u_phase.value
+            # if playbackFlag.value==1:
+            #     temp_date += date_diff
+            # if temp_date > u_phase.value+0.25:
+            #     temp_date = u_phase.value
             #qI.put([prev_time,curr_time,prev_date,curr_date])
             #unravelTime.value = curr_date
             #if (unravelTime.value + date_diff) > u_phase.value:
             #unravelTime.value = unravelTime.value + date_diff
             #temp_date_diff = temp_date - prev_temp_date
-            unravelTime.value = temp_date
+            #unravelTime.value = temp_date
             #print unravelTime.value,u_phase.value/(2*np.pi)
             #print unravelTime.value
             #loopThis = int((time_diff)*1000)
@@ -309,12 +310,33 @@ def printPhase(q1,vel,unravelTime,u_phase,playbackFlag,stop_all,savePath):
             #print curr_date,time_diff, date_diff, loopThis
             prev_time = curr_time
             prev_date = curr_date
-            f.write("%f, %f, %f, %f\n"%(time.time(),fP,curr_date,temp_date))
+            f.write("%f, %f, %f\n"%(time.time(),fP,curr_date))
+        if stop_all.value == 1:
+            break
+
+def interpolatePlay(unravelTime,q2,stop_all,playbackFlag,u_phase):
+    temp_date = 0
+    while True:
+        if not q2.empty():
+            data = q2.get()
+            curr_time = data[0]
+            prev_time = data[1]
+            curr_date = data[2]
+            prev_date = data[3]
+            millis = int((curr_time - prev_time)/0.01)
+            date_increment = (curr_date - prev_date)/millis
+            for i in range(0,millis):
+                if playbackFlag.value==1:
+                    temp_date += date_increment
+                if temp_date > u_phase.value/(2*np.pi)+0.25:
+                    temp_date = u_phase.value/(2*np.pi)
+                unravelTime.value = temp_date
+                sleep(0.01)
         if stop_all.value == 1:
             break
 
 def playMIDI(unravelTime,amp,stop_all,which_one,savePath,g):
-
+    
     path = '/Users/mb/Desktop/Janis.So/06_qmul/BB/02_inputs/inscore_stuff/main_menu/l_'+str(g)+'/'
     f = open(savePath+'/play_midi.csv','w+')
     f.write('time,phase,midi_note,midi_vel\n')
@@ -329,7 +351,7 @@ def playMIDI(unravelTime,amp,stop_all,which_one,savePath,g):
     #mid = MidiFile('/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/polonaise.mid')
     #mid = MidiFile('/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/moonlight.mid')
     #mid = MidiFile('/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/lalaland.mid')
-    port = mido.open_output(mido.get_output_names()[1])
+    port = mido.open_output(mido.get_output_names()[0])
     all_time = 0
     msg_count = 0
     all_messages = []
@@ -402,6 +424,7 @@ def doIt(savePath,which_one,g):
     r = REG()
     q = multiprocessing.Queue()
     q1 = multiprocessing.Queue()
+    q2 = multiprocessing.Queue()
     #qI = multiprocessing.Queue()
     amp = multiprocessing.Value('d', 0.0)
     playbackFlag = multiprocessing.Value('i', 0)
@@ -414,8 +437,9 @@ def doIt(savePath,which_one,g):
     p1 = multiprocessing.Process(target=runLeap,args=(q,vel,u_phase,unravelTime,stop_all,savePath))
     p2 = multiprocessing.Process(target=r.doReg,args=(q,u_phase,q1,amp,stop_all,savePath))
     p3 = multiprocessing.Process(target=getSamples,args=(vel,playbackFlag,stop_all,savePath))
-    p4 = multiprocessing.Process(target=printPhase,args=(q1,vel,unravelTime,u_phase,playbackFlag,stop_all,savePath))
+    p4 = multiprocessing.Process(target=printPhase,args=(q1,vel,unravelTime,u_phase,playbackFlag,stop_all,savePath,q2))
     p5 = multiprocessing.Process(target=oscSendI,args=(unravelTime,stop_all))
+    p6 = multiprocessing.Process(target=interpolatePlay,args=(unravelTime,q2,stop_all,playbackFlag,u_phase))
     #p6 = multiprocessing.Process(target=interPol,args=(qI,unravelTime))
     p0.start()
     sleep(0.5)
@@ -424,7 +448,7 @@ def doIt(savePath,which_one,g):
     p2.start()
     p4.start()
     p5.start()
-    #p6.start()
+    p6.start()
     p0.join()
     sleep(0.5)
     p3.join()
@@ -432,7 +456,7 @@ def doIt(savePath,which_one,g):
     p2.join()
     p4.join()
     p5.join()
-    #p6.join()
+    p6.join()
 
 #if __name__ == "__main__":
 #    doIt()

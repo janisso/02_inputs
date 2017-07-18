@@ -73,8 +73,6 @@ def demoMenu():
             break
         sleep(0.05)
 
-
-
 def retryMenu(retry):
     controller = Leap.Controller()
     flag = 0
@@ -154,8 +152,6 @@ def retryMenu(retry):
             break
         sleep(0.05)
 
-
-
 def worker1(name):
     i =0
     while True:
@@ -165,8 +161,6 @@ def worker1(name):
         i+=1
         sleep(0.1)
     return
-
-
 
 def worker2(name):
     i = 0
@@ -178,8 +172,6 @@ def worker2(name):
         sleep(0.1)
     return
 
-
-
 def worker3(name):
     i = 0
     while True:
@@ -189,8 +181,6 @@ def worker3(name):
         i+=1
         sleep(0.1)
     return
-
-
 
 def launcher(jobs,select):
     if select==1 :
@@ -203,8 +193,6 @@ def launcher(jobs,select):
         return
     jobs.append(p)
     p.start()
-
-
 
 def relaunch():
     jobs = []
@@ -268,7 +256,7 @@ if __name__ == '__main__':
     p0 = multiprocessing.Process(target=demoMenu,args=())
     p0.start()
     p0.join()
-    os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/demo.inscore')
+    os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/impromptu.inscore')
     os.system('open -a Terminal')
     for i in range(3,0,-1):
         oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
@@ -302,7 +290,7 @@ if __name__ == '__main__':
             saveHere = savePath+'/0_'+str(titles[e[0]])+'/'+str(count)
             if not os.path.exists(saveHere):
                 os.makedirs(saveHere)
-            os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/demo.inscore')
+            os.system('open /Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/impromptu.inscore')
             for i in range(3,0,-1):
                 oscSendI('/ITL/scene/demoText1',['set', 'txt', i])
                 oscSendI('/ITL/scene/demoText1',['fontSize', 64])
@@ -317,7 +305,7 @@ if __name__ == '__main__':
         if retry.value == 1:
             break
 
-    for j in range(1,7):
+    for j in range(1,3):
         #BEGIN PRACTICE
         oscSendI('/ITL/scene',['load','/Users/mb/Desktop/Janis.so/06_qmul/BB/02_inputs/inscore_stuff/main_menu/begin_practice.inscore'])
         oscSendI('/ITL/scene/demoText',['set','txt', 'Begin Practicing '+str(e[j])])
