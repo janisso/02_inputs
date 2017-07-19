@@ -1,6 +1,7 @@
 import tkMessageBox
 import Tkinter as root
 import os
+import sys
 
 class  Canvas(object):
     window = None
@@ -371,7 +372,7 @@ class TextLine(object):
 if __name__ == '__main__':
     #Functions bind to button events
     def SubmitButtonClick(event=None):
-        if (groupB.getValue()=='G3') or (len(uidT.getText())==0):
+        if (groupB.getValue()=='G9') or (len(uidT.getText())==0):
             print 'Please select treatment group and enter user ID'
             return
         path = '/Users/mb/Desktop/Janis.So/06_qmul/BB/05_data/'+str(groupB.getValue())+'/'+uidT.getText()+'/'
@@ -388,6 +389,7 @@ if __name__ == '__main__':
         print 'Group: '+ str(groupB.getValue())
         print 'User ID: '+ uidT.getText()
         print str(q1S.getValue())+'\n'+str(q2S.getValue())+'\n'+str(q3S.getValue())+'\n'+str(q4S.getValue())+'\n'+str(q5S.getValue())+'\n'+str(q6S.getValue())+'\n'+str(q7S.getValue())+'\n'+str(q8S.getValue())+'\n'+str(q9S.getValue())+'\n'+str(q10S.getValue())+'\n'
+        sys.exit(-1)
         #f.write('Time,Value\n')
         #print path
         #report = "\n"
@@ -416,7 +418,7 @@ if __name__ == '__main__':
 
     uidL=Label('User ID',50,0,100,30)
     Frame.add(uidL)   
-    uidT=TextLine(150,0,50,30)
+    uidT=TextLine(150,0,80,30)
     Frame.add(uidT)
 
 
@@ -741,8 +743,14 @@ if __name__ == '__main__':
     groupB = RadioGroup(100,20)
     groupB.addRadioButton("G1",350,10)
     groupB.addRadioButton("G2",450,10)
-    groupB.addRadioButton("G3",-650,10)
-    groupB.setButtonTrue(2)
+    groupB.addRadioButton("G3",550,10)
+    groupB.addRadioButton("G4",650,10)
+    groupB.addRadioButton("G5",750,10)
+    groupB.addRadioButton("G6",850,10)
+    groupB.addRadioButton("G7",950,10)
+    groupB.addRadioButton("G8",1050,10)
+    groupB.addRadioButton("G9",-550,10)
+    groupB.setButtonTrue(9)
     Frame.add(groupB)
     
     #radioGroup2

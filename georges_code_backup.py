@@ -362,4 +362,5 @@ if __name__ == '__main__':
     for i in range(10,0,-1):
         sleep(1)
     subprocess.call(['osascript', '-e', 'quit app "/Applications/INScoreViewer-1.21.app"'])
+    os.system("python quizapp.py")
     sys.exit(-1)
