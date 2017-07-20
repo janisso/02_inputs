@@ -676,7 +676,7 @@ if __name__ == '__main__':
     
     #Q24
     y_pos += 50
-    q4T = TextArea("24. BB helped me learn the piece Having experimented with\n phrasing using BB made me more aware of phrasing in other pieces",1020,y_pos,450,40)
+    q4T = TextArea("24. Having experimented with\n phrasing using BB made me more aware of phrasing in other pieces",1020,y_pos,450,40)
     Frame.add(q4T)
     y_pos += 45
     q24S=Slider(1,5,1030,y_pos,420,40)
